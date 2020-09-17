@@ -1,0 +1,5 @@
+body {
+    margin: auto;
+    background: #000000 url(assets/background.png);
+    overscroll-behavior: none;
+}
