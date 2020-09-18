@@ -3,11 +3,12 @@
     width: 40%;
     margin: auto;
     border-radius: 50%;
-    background: #636161bd;
+    background: #afadadbd;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
 .LHtop {
     width: 3%;
@@ -69,7 +70,7 @@
 .sand {
     width: 40%;
     height: 4%;
-    box-shadow: 0px 30px 10px 0px #489bec, 0px 20px 10px 0px #489bec, -20px 10px 10px -5px #489bec, 20px 10px 10px -5px #489bec, 10px 10px 10px 10px #e39d4f inset, 0px 1px 1px 1px #e39d4f;
+    box-shadow: 0px 30px 10px 0px #489bec, 10px 20px 10px 0px #489bec, -10px 20px 10px 0px #489bec, -40px 10px 10px -5px #489bec, 40px 10px 10px -5px #489bec, 10px 10px 10px 10px #e39d4f inset, 0px 1px 1px 1px #e39d4f, 0px -2px 10px 0px #e39d4f;
     border-bottom-left-radius: 50%;
     border-bottom-right-radius: 50%;
     border-top-left-radius: 50%;
