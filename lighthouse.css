@@ -24,3 +24,10 @@
     border: yellow solid 1px;
     border-radius: 50%;
 }
+.LHdome {
+    height: 10%;
+    width: 20%;
+    border: solid 1px blue;
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+}
