@@ -83,6 +83,48 @@
     width: 12%;
     height: 32%;
     background: #FD9E9B;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+.brick1 {
+    background: #ff8682;
+    width: 30%;
+    height: 8%;
+    border-top: #FD9E9B 10px solid;
+}
+.brick2 {
+    background: #ff8682;
+    width: 30%;
+    height: 8%;
+    border-top: #FD9E9B 10px solid;
+    align-self: flex-end;
+    margin-right: 10%;
+}
+.midWindow {
+    width: 30%;
+    height: 25%;
+    background: #FFC002;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border: 3px solid #ff8682;
+    box-shadow: 0px 5px 10px 1px #ffffff inset;
+    align-self: center;
+}
+.brick3 {
+    background: #ff8682;
+    width: 30%;
+    height: 8%;
+    align-self: center;
+    margin-left: -30%;
+}
+.brick4 {
+    background: #ff8682;
+    width: 30%;
+    height: 8%;
+    border-bottom: #FD9E9B 10px solid;
+    align-self: flex-end;
 }
 .LHbottom {
     width: 18%;
