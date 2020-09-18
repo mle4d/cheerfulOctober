@@ -31,3 +31,13 @@
     border-top-left-radius: 100%;
     border-top-right-radius: 100%;
 }
+.LHpeak {
+    width: 16%;
+    height: 15%;
+    border: pink 1px solid;
+}
+.LHmid {
+    width: 20%;
+    height: 20%;
+    border: orange 1px solid;
+}
