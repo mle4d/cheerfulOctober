@@ -38,6 +38,8 @@
     -20px 0px 5px 0px #f7eac6e7,
     -15px 0px 5px 0px #f7eac6e7,
     -10px 0px 5px 0px #f7eac6f5;
+    animation: beam 10s linear infinite;
+    z-index: +1;
 }
 .LHdome {
     height: 8%;
