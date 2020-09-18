@@ -20,6 +20,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border: 1px solid #ff8682;
 }
 .beam {
     width: 70%;
@@ -38,12 +39,18 @@
     width: 10%;
     height: 10%;
     background: #FD9E9B;
+    border-top: 5px solid #ff8682;
 }
 .LHmid {
     width: 14%;
     height: 10%;
     background: #FD9E9B;
+    border-top: 5px solid #ff8682;
     border-bottom: 10px solid #ff8682;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 .LHbody {
     width: 12%;
@@ -53,8 +60,10 @@
 .LHbottom {
     width: 18%;
     height: 12%;
-    border-top: 10px solid #ff8682;
     background: #FD9E9B;
+    border-top: 10px solid #ff8682;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -62,10 +71,13 @@
 }
 .LHdoor {
     width: 40%;
-    height: 90%;
+    height: 100%;
     background: #0A0C1A;
     border-top-left-radius: 50%;
     border-top-right-radius: 50%;
+    border-top: 3px solid #ff8682;
+    border-left: 3px solid #ff8682;
+    border-right: 3px solid #ff8682;
 }
 .sand {
     width: 40%;
@@ -73,6 +85,6 @@
     box-shadow: 0px 30px 10px 0px #489bec, 10px 20px 10px 0px #489bec, -10px 20px 10px 0px #489bec, -40px 10px 10px -5px #489bec, 40px 10px 10px -5px #489bec, 10px 10px 10px 10px #e39d4f inset, 0px 1px 1px 1px #e39d4f, 0px -2px 10px 0px #e39d4f;
     border-bottom-left-radius: 50%;
     border-bottom-right-radius: 50%;
-    border-top-left-radius: 50%;
-    border-top-right-radius: 50%;
+    border-top-left-radius: 40%;
+    border-top-right-radius: 40%;
 }
