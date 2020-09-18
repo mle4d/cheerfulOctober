@@ -11,7 +11,7 @@
 }
 .LHtop {
     width: 5%;
-    height: 10%;
+    height: 8%;
     border: solid 1px red;
     display: flex;
     flex-direction: column;
@@ -25,7 +25,7 @@
     border-radius: 50%;
 }
 .LHdome {
-    height: 10%;
+    height: 8%;
     width: 20%;
     border: solid 1px blue;
     border-top-left-radius: 100%;
@@ -33,11 +33,37 @@
 }
 .LHpeak {
     width: 16%;
-    height: 15%;
+    height: 13%;
     border: pink 1px solid;
 }
 .LHmid {
     width: 20%;
-    height: 20%;
+    height: 18%;
     border: orange 1px solid;
+}
+.LHbody {
+    width: 18%;
+    height: 28%;
+    border: white solid 1px;
+}
+.LHbottom {
+    width: 20%;
+    height: 10%;
+    border: purple solid 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.LHdoor {
+    width: 40%;
+    height: 80%;
+    border: solid yellow 1px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+.sand {
+    width: 40%;
+    height: 3%;
+    border: solid brown 1px;
 }
