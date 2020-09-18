@@ -38,7 +38,7 @@
     -20px 0px 5px 0px #f7eac6e7,
     -15px 0px 5px 0px #f7eac6e7,
     -10px 0px 5px 0px #f7eac6f5;
-    animation: beam 10s linear infinite;
+    animation:  beam 10s linear infinite;
     z-index: +1;
 }
 .LHdome {
@@ -69,6 +69,7 @@
     border-left: 3px solid #ff8682;
     border-right: 3px solid #ff8682;
     box-shadow: 2px 5px 10px 1px #ffffff inset;
+    animation:  windowFlicker 5s linear infinite;
 }
 .window2 {
     width: 30%;
@@ -79,7 +80,7 @@
     border-top: 3px solid #ff8682;
     border-left: 3px solid #ff8682;
     border-right: 3px solid #ff8682;
-    box-shadow: -2px 5px 10px 1px #ffffff inset;
+    animation:  windowFlicker 3s linear infinite;
 }
 .LHmid {
     width: 16%;
@@ -123,6 +124,7 @@
     border: 3px solid #ff8682;
     box-shadow: 0px 5px 10px 1px #ffffff inset;
     align-self: center;
+    animation:  windowFlicker 10s linear infinite;
 }
 .brick3 {
     background: #ff8682;
