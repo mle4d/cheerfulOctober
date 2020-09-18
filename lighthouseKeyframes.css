@@ -1,7 +1,11 @@
 
 @keyframes beam {
     0% {
-        box-shadow: -120px 25px 10px 25px #f3efe4bd,
+        box-shadow: 
+        -180px 55px 10px 40px #fdfcf8bd,
+        -160px 45px 10px 40px #fdfcf8bd,
+        -140px 35px 10px 30px #f3efe4bd,
+        -120px 25px 10px 25px #f3efe4bd,
         -100px 20px 10px 20px #f7eed6d2, 
         -80px 15px 10px 15px #f5ebd1d2,
         -60px 10px 10px 10px #f7eccede,
@@ -14,7 +18,11 @@
         -10px 0px 5px 0px #f7eac6f5; 
     }
     50% {
-        box-shadow: 120px 25px 10px 25px #f3efe4bd,
+        box-shadow: 
+        180px 55px 10px 40px #fdfcf8bd,
+        160px 45px 10px 40px #fdfcf8bd,
+        140px 35px 10px 30px #f3efe4bd,
+        120px 25px 10px 25px #f3efe4bd,
         100px 20px 10px 20px #f7eed6d2, 
         80px 15px 10px 15px #f5ebd1d2,
         60px 10px 10px 10px #f7eccede,
@@ -27,7 +35,11 @@
         10px 0px 5px 0px #f7eac6f5;
   }
   100% {
-    box-shadow: -120px 25px 10px 25px #f3efe4bd,
+    box-shadow: 
+    -180px 55px 10px 40px #fdfcf8bd,
+    -160px 45px 10px 40px #fdfcf8bd,
+    -140px 35px 10px 30px #f3efe4bd,
+    -120px 25px 10px 25px #f3efe4bd,
     -100px 20px 10px 20px #f7eed6d2, 
     -80px 15px 10px 15px #f5ebd1d2,
     -60px 10px 10px 10px #f7eccede,
@@ -39,4 +51,15 @@
     -15px 0px 5px 0px #f7eac6e7,
     -10px 0px 5px 0px #f7eac6f5; 
 }
+}
+@keyframes windowFlicker {
+    0% {
+        box-shadow: 2px 5px 10px 1px #ffffff inset;
+    }
+    50% {
+        box-shadow: 5px 0px 10px 1px #ffffff inset;
+    }
+    100% {
+        box-shadow: 2px 5px 10px 0px #ffffff inset;
+    }
 }
