@@ -1,0 +1,40 @@
+.container {
+    /* flex-direction: row; */
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.jacketWrapper {
+    height: 60%;
+    width: 80%;
+    /* border: solid 1px black; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+}
+.leftSleeve {
+    width: 8%;
+    height: 70%;
+    border: red 1px solid;
+}
+.leftSide {
+    width: 20%;
+    height: 100%;
+    border: solid green 1px;
+}
+.middle {
+    width: 10%;
+    height: 90%;
+    border: yellow solid 1px;
+}
+.rightSide {
+    width: 20%;
+    height: 100%;
+    border: solid green 1px;
+}
+.rightSleeve {
+    width: 8%;
+    height: 70%;
+    border: orange 1px solid;
+}
