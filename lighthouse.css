@@ -27,6 +27,14 @@
     height: 80%;
     background: #FFC002;
     border-radius: 50%;
+    box-shadow: -120px 25px 10px 25px #f3efe4bd,
+    -100px 20px 10px 20px #f7eed6d2, 
+    -80px 15px 10px 15px #f5ebd1d2,
+    -60px 10px 10px 10px #f7eccede,
+    -40px 5px 10px 5px #f7eac6d2,
+    -25px 5px 10px 0px #f7eac6e1,
+    -20px 0px 10px 0px #f7eac6e7,
+    -10px 0px 5px 0px #f7eac6f5;
 }
 .LHdome {
     height: 8%;
@@ -86,7 +94,6 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    /* align-items: center; */
 }
 .brick1 {
     background: #ff8682;
