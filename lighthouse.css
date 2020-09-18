@@ -55,6 +55,7 @@
     border-top: 3px solid #ff8682;
     border-left: 3px solid #ff8682;
     border-right: 3px solid #ff8682;
+    box-shadow: 2px 5px 10px 1px #ffffff inset;
 }
 .window2 {
     width: 30%;
@@ -65,6 +66,7 @@
     border-top: 3px solid #ff8682;
     border-left: 3px solid #ff8682;
     border-right: 3px solid #ff8682;
+    box-shadow: -2px 5px 10px 1px #ffffff inset;
 }
 .LHmid {
     width: 14%;
