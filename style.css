@@ -14,3 +14,15 @@ h1 {
     text-shadow: 2px 2px #FFC002, 4px 4px #ffc002;
     letter-spacing: 2vw;
 }
+.container {
+    height: 70vh;
+    width: 40%;
+    margin: auto;
+    border-radius: 50%;
+    background: #afadadbd;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
