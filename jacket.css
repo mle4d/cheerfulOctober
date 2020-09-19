@@ -39,6 +39,28 @@
     width: 100%;
     height: 50%;
 }
+.collar1 {
+    width: 70%;
+    height: 20%;
+    margin-left: 65%;
+    margin-top: -15%;
+    transform: rotate(0deg);
+    z-index: +2;
+    background: linear-gradient(250deg, #f6f2e6 0%, #f88e8a 100%);
+}
+.collar2 {
+    width: 70%;
+    height: 40%;
+    transform: rotate(-37deg);
+    margin-left: 70%;
+    margin-top: -10%;
+    z-index: +2;
+    background: linear-gradient(250deg, #f6f2e6 0%, #f88e8a  100%);
+}
+.leftSideBottom {
+    width: 100%;
+    height: 50%;
+}
 .middle {
     width: 10%;
     height: 90%;
@@ -66,24 +88,6 @@
     font-size: 7px;
     background: #ffc002;
     color: #f6f2e6;
-}
-.collar1 {
-    width: 70%;
-    height: 20%;
-    margin-left: 65%;
-    margin-top: -15%;
-    transform: rotate(0deg);
-    z-index: +2;
-    background: linear-gradient(250deg, #f6f2e6 0%, #f88e8a 100%);
-}
-.collar2 {
-    width: 70%;
-    height: 40%;
-    transform: rotate(-37deg);
-    margin-left: 70%;
-    margin-top: -10%;
-    z-index: +2;
-    background: linear-gradient(250deg, #f6f2e6 0%, #f88e8a  100%);
 }
 .rightSide {
     width: 13%;
@@ -120,6 +124,10 @@
     margin-top: -8%;
     z-index: +1;
     background: linear-gradient(250deg, #f88e8a   0%, #f6f2e6 100%);
+}
+.rightSideBottom {
+    width: 100%;
+    height: 50%;
 }
 .rightSleeve {
     width: 8%;
