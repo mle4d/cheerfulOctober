@@ -16,29 +16,42 @@
 .leftSleeve {
     width: 8%;
     height: 70%;
-    transform: rotate(20deg);
+    transform: rotate(28deg);
     background: linear-gradient(0deg, #0a0c1a 0%, #f6f2e6 60%);
+    border-top-left-radius: 100px 100px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
 }
 .leftSide {
     width: 15%;
     height: 100%;
     background: linear-gradient(0deg, #0a0c1a 0%, #f6f2e6 70%);
+    border-top-left-radius: 100px 100px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 8px;
     z-index: +1;
 }
 .middle {
     width: 10%;
     height: 90%;
-    background: #fd9e9b;
+    background: #fd9e9bd8;
 }
 .rightSide {
     width: 15%;
     height: 100%;
     background: linear-gradient(0deg, #0a0c1a 0%, #f6f2e6 70%);
+    border-top-right-radius: 100px 100px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 5px;
     z-index: +1;
 }
 .rightSleeve {
     width: 8%;
     height: 70%;
-    transform: rotate(-20deg);
+    transform: rotate(-28deg);
     background: linear-gradient(0deg, #0a0c1a 0%, #f6f2e6 60%);
+    border-top-right-radius: 100px 100px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
 }
+
