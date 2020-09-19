@@ -14,7 +14,7 @@
 }
 .leftSleeve {
     width: 8%;
-    height: 70%;
+    height: 60%;
     transform: rotate(25deg);
     background: linear-gradient(0deg, #f88e8a  0%, #f6f2e6 60%, #f6f2e6 90%, transparent 100%);
     border-top-left-radius: 50px 100px;
@@ -34,6 +34,10 @@
     align-items: flex-end;
     flex-wrap: wrap;
     overflow: hidden;
+}
+.leftSideTop {
+    width: 100%;
+    height: 50%;
 }
 .middle {
     width: 10%;
@@ -65,8 +69,8 @@
 }
 .collar1 {
     width: 70%;
-    height: 10%;
-    margin-right: -35%;
+    height: 20%;
+    margin-left: 65%;
     margin-top: -15%;
     transform: rotate(0deg);
     z-index: +2;
@@ -74,9 +78,9 @@
 }
 .collar2 {
     width: 70%;
-    height: 20%;
+    height: 40%;
     transform: rotate(-37deg);
-    margin-right: -40%;
+    margin-left: 70%;
     margin-top: -10%;
     z-index: +2;
     background: linear-gradient(250deg, #f6f2e6 0%, #f88e8a  100%);
@@ -95,9 +99,13 @@
     flex-wrap: wrap;
     overflow: hidden;
 }
+.rightSideTop {
+    width: 100%;
+    height: 50%;
+}
 .collar3 {
     width: 70%;
-    height: 10%;
+    height: 20%;
     margin-left: -35%;
     margin-top: -15%;
     transform: rotate(5deg);
@@ -106,21 +114,20 @@
 }
 .collar4 {
     width: 70%;
-    height: 20%;
+    height: 40%;
     transform: rotate(37deg);
     margin-left: -40%;
     margin-top: -8%;
-    z-index: +2;
+    z-index: +1;
     background: linear-gradient(250deg, #f88e8a   0%, #f6f2e6 100%);
 }
 .rightSleeve {
     width: 8%;
-    height: 70%;
+    height: 60%;
     transform: rotate(-25deg);
     background: linear-gradient(0deg, #f88e8a  0%, #f6f2e6 60%, #f6f2e6 90%, transparent 100%);
     border-top-right-radius: 50px 100px;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
-    z-index: +1;
 }
 
