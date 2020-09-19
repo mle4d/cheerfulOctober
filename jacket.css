@@ -3,6 +3,7 @@
     justify-content: center;
     align-items: center;
     overflow: hidden;
+    z-index: -1;
 }
 .jacketWrapper {
     height: 60%;
@@ -17,8 +18,8 @@
     width: 8%;
     height: 70%;
     transform: rotate(28deg);
-    background: linear-gradient(0deg, #0a0c1a 0%, #f6f2e6 60%);
-    border-top-left-radius: 100px 100px;
+    background: linear-gradient(0deg, #0a0c1a 0%, #f6f2e6 60%, #f6f2e6 90%, transparent 100%);
+    border-top-left-radius: 50px 100px;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
 }
@@ -29,12 +30,30 @@
     border-top-left-radius: 100px 100px;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 8px;
-    z-index: +1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
 }
 .middle {
     width: 10%;
     height: 90%;
     background: #fd9e9bd8;
+}
+.collar1 {
+    width: 50%;
+    height: 20%;
+    border: red 1px solid;
+    transform: rotate(-40deg);
+    z-index: +2;
+}
+.collar2 {
+    width: 50%;
+    height: 20%;
+    border: red 1px solid;
+    transform: rotate(40deg);
+    z-index: +2;
 }
 .rightSide {
     width: 15%;
@@ -43,15 +62,39 @@
     border-top-right-radius: 100px 100px;
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 5px;
-    z-index: +1;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+.collar3 {
+    width: 50%;
+    height: 10%;
+    /* border: red 1px solid; */
+    margin-left: -35%;
+    transform: rotate(30deg);
+    z-index: +2;
+    background: linear-gradient(250deg, #0a0c1a  0%, transparent 60%, transparent 100%);
+}
+.collar4 {
+    width: 50%;
+    height: 20%;
+    /* border: red 1px solid; */
+    transform: rotate(20deg);
+    margin-left: -35%;
+    z-index: +2;
+    background: linear-gradient(250deg, #0a0c1a  0%, transparent 60%, transparent 100%);
 }
 .rightSleeve {
     width: 8%;
     height: 70%;
     transform: rotate(-28deg);
-    background: linear-gradient(0deg, #0a0c1a 0%, #f6f2e6 60%);
-    border-top-right-radius: 100px 100px;
+    background: linear-gradient(0deg, #0a0c1a 0%, #f6f2e6 60%, #f6f2e6 90%, transparent 100%);
+    border-top-right-radius: 50px 100px;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
+    z-index: +1;
 }
 
