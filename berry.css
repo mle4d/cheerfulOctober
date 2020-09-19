@@ -9,7 +9,7 @@
     width: 3%;
     border-top-left-radius: 50%;
     background-position: top left;
-    background: radial-gradient(circle at 53% 36%, transparent 0%, transparent 40%, #ffc002 50%, #f88e8a 80%);
+    background: radial-gradient(circle at 53% 36%, transparent 0%, transparent 40%, #ffc002 41%, #f88e8a 80%);
     background-size: 50px 50px;
     box-shadow: -5px 20px 8px -5px #ffc002;
 
@@ -25,6 +25,7 @@
     align-content: center;
     align-items: center;
     overflow: hidden;
+    box-shadow: 10px 30px 10px -10px #0a0c1acc, -1px -1px 10px 1px #0a0c1acc;
 }
 .pumpkin1 {
     width: 15%;
@@ -59,7 +60,7 @@
     border-radius: 50%;
     width: 30%;
     height: 10%;
-    box-shadow: 0px -10px 1px 10px #000000da;
+    box-shadow: 0px -10px 1px 10px #0a0c1acc;
     z-index: +1;
 }
 .rightEye {
@@ -67,7 +68,7 @@
     width: 30%;
     height: 10%;
     margin-left: 40%;
-    box-shadow: 0px -10px 1px 10px #000000da;
+    box-shadow: 0px -10px 1px 10px #0a0c1acc;
     z-index: +1;
 }
 .nose {
@@ -75,12 +76,12 @@
     height: 0; 
     border-left: 25px solid transparent;
     border-right: 25px solid transparent;
-    border-bottom: 25px solid #000000da;
+    border-bottom: 25px solid #0a0c1acc;
   }
   .mouth {
       width: 100%;
       height: 20%;
-      border-bottom: 10px solid #000000da ;
+      border-bottom: 10px solid #0a0c1acc;
       border-radius: 50%;
   }
 .pumpkin3 {
