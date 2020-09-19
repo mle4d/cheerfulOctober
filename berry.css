@@ -1,3 +1,10 @@
+p {
+    background: #0a0c1acc;
+    width: 20%;
+    margin: auto;
+    margin-top: -1%;
+    height: 0%;
+}
 .container {
     flex-direction: column;
     justify-content: center;
@@ -25,7 +32,7 @@
     align-content: center;
     align-items: center;
     overflow: hidden;
-    box-shadow: 10px 30px 10px -10px #0a0c1acc, -1px -1px 10px 1px #0a0c1acc;
+    box-shadow: -5px 30px 10px -10px #0a0c1acc, -40px -1px 10px 1px #0a0c1acc;
 }
 .pumpkin1 {
     width: 15%;
