@@ -44,7 +44,7 @@
     height: 20%;
     margin-left: 65%;
     margin-top: -15%;
-    transform: rotate(0deg);
+    transform: rotate(10deg);
     z-index: +2;
     background: linear-gradient(250deg, #f6f2e6 0%, #f88e8a 100%);
 }
@@ -61,8 +61,8 @@
     width: 100%;
     height: 50%;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-around;
     align-content: center;
     align-items: flex-end;
     flex-wrap: wrap;
@@ -73,6 +73,19 @@
     height: 3%;
     background: #0A0C1Ad8;
     transform: rotate(-10deg);
+    align-self: center;
+}
+.buttonContainer {
+    width: 15%;
+    height: 80%;
+    border: red solid 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    overflow: hidden;
 }
 .middle {
     width: 10%;
@@ -125,9 +138,9 @@
     height: 20%;
     margin-left: -35%;
     margin-top: -15%;
-    transform: rotate(5deg);
+    transform: rotate(-10deg);
     z-index: +2;
-    background: linear-gradient(250deg, #f88e8a   0%, #f6f2e6 100%);
+    background: linear-gradient(250deg, #f88e8a 0%, #f6f2e6 100%);
 }
 .collar4 {
     width: 70%;
