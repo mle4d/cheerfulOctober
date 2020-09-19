@@ -41,6 +41,29 @@
     width: 10%;
     height: 90%;
     background: #fd9e9bd8;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center; 
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    overflow: hidden;
+    font-family: 'Shrikhand', cursive;
+}
+.tag {
+    width: 50%;
+    height: 5%;
+    border: dotted #ffc002 1px;
+    color: #f73b13;
+    background: #f6f2e6;
+    font-size: 5px;
+}
+.sizeTag {
+    width: 18%;
+    height: 5%;
+    font-size: 7px;
+    background: #ffc002;
+    color: #f6f2e6;
 }
 .collar1 {
     width: 70%;
