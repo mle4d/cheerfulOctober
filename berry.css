@@ -60,7 +60,6 @@ p {
     flex-direction: row;
     justify-content: space-evenly;
     align-content: center;
-    /* align-items: stretch; */
     flex-wrap: wrap;
 }
 .leftEye {
