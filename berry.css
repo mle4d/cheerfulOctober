@@ -47,7 +47,29 @@
     border-top: solid 10px #fcb51d;
     border-bottom: solid 10px #fcb51d;
     border-radius: 50%;
-    box-shadow: 5px -10px 10px 0px #f1b023af inset, 0px 10px 10px 0px #fcb51d, 0px -10px 10px 0px #fcb51d;
+    box-shadow: 5px -10px 10px 0px #f1b023af inset, 0px 10px 10px 0px #fcb51d, 0px -10px 10px 0px #fcb51d, 0px -30px 1px -10px #000000da inset;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: flex-start;
+}
+.leftEye {
+    border-radius: 50%;
+    width: 30%;
+    height: 10%;
+    margin-top: 80%;
+    box-shadow: 0px -10px 1px 10px #000000da;
+    z-index: +1;
+}
+.rightEye {
+    border-radius: 50%;
+    width: 30%;
+    height: 10%;
+    margin-top: 80%;
+    margin-left: 40%;
+    box-shadow: 0px -10px 1px 10px #000000da;
+    z-index: +1;
 }
 .pumpkin3 {
     width: 20%;
