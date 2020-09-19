@@ -6,9 +6,8 @@
     z-index: -1;
 }
 .jacketWrapper {
-    height: 60%;
-    width: 80%;
-    /* border: solid 1px black; */
+    height: 70%;
+    width: 90%;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -17,14 +16,14 @@
 .leftSleeve {
     width: 8%;
     height: 70%;
-    transform: rotate(28deg);
+    transform: rotate(25deg);
     background: linear-gradient(0deg, #0a0c1a 0%, #f6f2e6 60%, #f6f2e6 90%, transparent 100%);
     border-top-left-radius: 50px 100px;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
 }
 .leftSide {
-    width: 15%;
+    width: 13%;
     height: 100%;
     background: linear-gradient(0deg, #0a0c1a 0%, #f6f2e6 70%);
     border-top-left-radius: 100px 100px;
@@ -78,13 +77,13 @@
     width: 70%;
     height: 20%;
     transform: rotate(-37deg);
-    margin-right: -35%;
+    margin-right: -40%;
     margin-top: -10%;
     z-index: +2;
     background: linear-gradient(250deg, #f6f2e6 0%, #0a0c1a 100%);
 }
 .rightSide {
-    width: 15%;
+    width: 13%;
     height: 100%;
     background: linear-gradient(0deg, #0a0c1a 0%, #f6f2e6 70%);
     border-top-right-radius: 100px 100px;
@@ -110,7 +109,7 @@
     width: 70%;
     height: 20%;
     transform: rotate(37deg);
-    margin-left: -35%;
+    margin-left: -40%;
     margin-top: -8%;
     z-index: +2;
     background: linear-gradient(250deg, #0a0c1a  0%, #f6f2e6 100%);
@@ -118,7 +117,7 @@
 .rightSleeve {
     width: 8%;
     height: 70%;
-    transform: rotate(-28deg);
+    transform: rotate(-25deg);
     background: linear-gradient(0deg, #0a0c1a 0%, #f6f2e6 60%, #f6f2e6 90%, transparent 100%);
     border-top-right-radius: 50px 100px;
     border-bottom-left-radius: 15px;
