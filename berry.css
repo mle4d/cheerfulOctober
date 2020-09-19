@@ -47,18 +47,18 @@
     border-top: solid 10px #fcb51d;
     border-bottom: solid 10px #fcb51d;
     border-radius: 50%;
-    box-shadow: 5px -10px 10px 0px #f1b023af inset, 0px 10px 10px 0px #fcb51d, 0px -10px 10px 0px #fcb51d, 0px -30px 1px -10px #000000da inset;
+    box-shadow: 5px -10px 10px 0px #f1b023af inset, 0px 10px 10px 0px #fcb51d, 0px -10px 10px 0px #fcb51d;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-content: center;
     align-items: flex-start;
+    flex-wrap: wrap;
 }
 .leftEye {
     border-radius: 50%;
     width: 30%;
     height: 10%;
-    margin-top: 80%;
     box-shadow: 0px -10px 1px 10px #000000da;
     z-index: +1;
 }
@@ -66,11 +66,17 @@
     border-radius: 50%;
     width: 30%;
     height: 10%;
-    margin-top: 80%;
     margin-left: 40%;
     box-shadow: 0px -10px 1px 10px #000000da;
     z-index: +1;
 }
+.nose {
+    width: 0; 
+    height: 0; 
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-bottom: 25px solid #000000da;
+  }
 .pumpkin3 {
     width: 20%;
     height: 85%;
