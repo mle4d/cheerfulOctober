@@ -30,32 +30,37 @@
     width: 15%;
     height: 50%;
     border: 1px solid transparent;
-    border-left: #f88e8ac7 5px solid;
+    border-left: #fcb51d 5px solid;
     border-radius: 70%;
+    box-shadow: 5px 10px 10px 0px #fcb51daf inset, -5px -10px 10px 0px #f1b023af inset, 0px 10px 10px 0px #fcb51d, 0px -10px 10px 0px #fcb51d;
 }
 .pumpkin2 {
     width: 20%;
-    height: 85%;
-    border-left: #f88e8ac7 8px solid;
+    height: 90%;
+    border-left: #fcb51d 3px solid;
     border-radius: 100%;
+    box-shadow: 5px 10px 10px 0px #fcb51daf inset, -5px -5px 10px 5px #f1b023af inset, 0px 10px 10px 10px #fcb51d, 0px -10px 10px 0px #fcb51d;
 }
 .pumpkinMiddle {
     width: 30%;
-    height: 91%;
-    border-top: solid 10px #f88e8ac7;
-    border-bottom: solid 10px #f88e8ac7;
+    height: 97%;
+    border-top: solid 10px #fcb51d;
+    border-bottom: solid 10px #fcb51d;
     border-radius: 50%;
+    box-shadow: 5px -10px 10px 0px #f1b023af inset, 0px 10px 10px 0px #fcb51d, 0px -10px 10px 0px #fcb51d;
 }
 .pumpkin3 {
     width: 20%;
     height: 85%;
-    border-right: #f88e8ac7 8px solid;
+    border-right: #fcb51d 3px solid;
     border-radius: 100%;
+    box-shadow: 5px 10px 10px 0px #fcb51daf inset, -5px -10px 10px 0px #f1b023af inset, 0px 10px 10px 0px #fcb51d, 0px -10px 10px 0px #fcb51d;
 }
 .pumpkin4 {
     width: 15%;
     height: 50%;
     border: 1px solid transparent;
-    border-right: #f88e8ac7 5px solid;
+    border-right: #fcb51d 5px solid;
     border-radius: 70%;
+    box-shadow: 5px 10px 10px 0px #fcb51daf inset, -5px -10px 10px 0px #f1b023af inset, 0px 10px 10px 0px #fcb51d, 0px -10px 10px 0px #fcb51d;
 }
