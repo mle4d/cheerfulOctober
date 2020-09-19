@@ -17,7 +17,7 @@
 .pumpkinContainer {
     width: 60%;
     height: 50%;
-    background: radial-gradient(circle at 50% 50%,#ffc002 0%, #f88e8a 100%);
+    background: radial-gradient(circle at 50% 50%,#ffc002 60%, #f88e8a 100%);
     border-radius: 50%;
     display: flex;
     flex-direction: row;
@@ -28,26 +28,34 @@
 }
 .pumpkin1 {
     width: 15%;
-    height: 100%;
-    border: white 1px solid;
+    height: 50%;
+    border: 1px solid transparent;
+    border-left: #f88e8ac7 5px solid;
+    border-radius: 70%;
 }
 .pumpkin2 {
     width: 20%;
-    height: 100%;
-    border: purple 1px solid;
+    height: 85%;
+    border-left: #f88e8ac7 8px solid;
+    border-radius: 100%;
 }
 .pumpkinMiddle {
     width: 30%;
-    height: 100%;
-    border: solid 1px red;
+    height: 91%;
+    border-top: solid 10px #f88e8ac7;
+    border-bottom: solid 10px #f88e8ac7;
+    border-radius: 50%;
 }
 .pumpkin3 {
     width: 20%;
-    height: 100%;
-    border: white 1px solid;
+    height: 85%;
+    border-right: #f88e8ac7 8px solid;
+    border-radius: 100%;
 }
 .pumpkin4 {
     width: 15%;
-    height: 100%;
-    border: purple 1px solid;
+    height: 50%;
+    border: 1px solid transparent;
+    border-right: #f88e8ac7 5px solid;
+    border-radius: 70%;
 }
