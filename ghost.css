@@ -32,18 +32,36 @@
     background: #f6f2e6;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
     align-content: flex-start;
     align-items: center;
     overflow: hidden;
 }
 .eyes {
+    width: 40%;
+    height: 40%;
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
-    align-content: flex-start;
+    justify-content: space-between;
+    align-content: center;
     align-items: center;
-    overflow: hidden;
+}
+.eye {
+    border-radius: 50%;
+    width: 30%;
+    height: 70%;
+    background: #0a0c1acc;
+    box-shadow: 0px -5px 1px 5px #0a0c1acc, 0px 5px 1px -1px #ffffff inset;
+    z-index: +1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pupil {
+    width: 20%;
+    height: 15%;
+    border-radius: 50%;
+    background: #ffffff;
 }
 .bottomBody {
     width: 100%;
