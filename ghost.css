@@ -48,20 +48,43 @@
 }
 .eye {
     border-radius: 50%;
-    width: 30%;
-    height: 70%;
+    width: 40%;
+    height: 80%;
     background: #0a0c1acc;
-    box-shadow: 0px -5px 1px 5px #0a0c1acc, 0px 5px 1px -1px #ffffff inset;
     z-index: +1;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
 }
 .pupil {
-    width: 20%;
-    height: 15%;
+    width: 40%;
+    height: 40%;
     border-radius: 50%;
     background: #ffffff;
+}
+.cheeks {
+    width: 60%;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+}
+.cheek {
+    height: 100%;
+    width: 20%;
+    border-radius: 50%;
+    background: #f88e8a3b;
+}
+.mouth {
+    width: 20%;
+    height: 15%;
+    background: #0a0c1acc;
+    border-radius: 10%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    box-shadow: 0px -8px 5px -1px #f88e8ab2 inset;
 }
 .bottomBody {
     width: 100%;
