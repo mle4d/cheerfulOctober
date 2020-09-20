@@ -4,14 +4,55 @@
     align-items: center;
     overflow: hidden;
 }
-
+.leftArm {
+    width: 6%;
+    height: 20%;
+    border: purple 1px solid;
+}
 .body {
     width: 40%;
     height: 60%;
     border: solid red 1px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
+    align-content: flex-start;
     align-items: center;
     overflow: hidden;
+}
+.topBody {
+ width: 80%;
+ height: 50%;
+ border-radius: 50%;
+ border: solid green 1px;
+}
+.bottomBody {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.leftBody {
+    width: 33%;
+    height: 100%;
+    border: solid orange 1px;
+}
+.middleBody {
+    width: 33%;
+    height: 100%;
+    border: solid blue 1px;
+}
+.rightBody {
+    width: 33%;
+    height: 100%;
+    border: solid pink 1px;
+}
+.rightArm {
+    width: 6%;
+    height: 20%;
+    border: purple 1px solid;
 }
