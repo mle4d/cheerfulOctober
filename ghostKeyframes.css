@@ -1,0 +1,21 @@
+@keyframes spooked {
+    from {
+        justify-content: flex-end;
+    }
+    to {
+        justify-content: center;
+    }
+}
+@keyframes scream {
+    0% {
+        border-bottom-left-radius: 50%;
+        border-bottom-right-radius: 50%;
+    }
+    50% {
+        border-radius: 50%;
+    }
+    100% {
+        border-top-left-radius: 50%;
+        border-top-right-radius: 50%;
+    }
+}
