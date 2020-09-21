@@ -1,0 +1,35 @@
+.container {
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    overflow: hidden;
+}
+.berryBranch {
+    width: 70%;
+    height: 50%;
+    border-top-left-radius: 20%;
+    transform: rotate(-10deg);
+    border-top: solid 10px #0a0c1a;
+}
+.berryTwig {
+    width: 30%;
+    height: 30%;
+    border: solid 5px #0a0c1a;
+    transform: rotate(50deg) translateY(50%);
+    border-top-left-radius: 10%;
+    border-bottom-right-radius: 5%;
+    border-bottom: transparent;
+    border-left: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    overflow: hidden;
+}
+.berry {
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+    border: red solid 1px;
+
+}
