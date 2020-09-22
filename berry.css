@@ -7,16 +7,21 @@
 .avoBodyMain {
     width: 40%;
     height: 40%;
-    border: solid 1px green;
+    border-bottom: solid 40px #667437;
+    border-top: solid 5px #667437;
+    border-left: solid 8px #667437;
+    border-right: 0px solid #f0e668;
     border-radius: 50%;
+    background-color: #f0e668;
+    /* z-index: +1; */
 }
 .avoBodysmall {
     width: 20%;
-    height: 32%;
-    border: solid 1px green;
+    height: 30%;
+    border-top: solid 4px #667437;
     border-top-right-radius: 80% 40%;
     border-bottom-right-radius: 80% 40%;
-    margin-top: -10%;
-    margin-left: -12%;
-    transform: rotate(-15deg);
+    margin-top: -7%;
+    margin-left: -8%;
+    background-color: #f0e668;
 }
