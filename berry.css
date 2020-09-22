@@ -1,35 +1,22 @@
 .container {
-    flex-direction: column;
-    justify-content: flex-end;
+    flex-direction: row;
+    justify-content: center;
     align-items: center;
     overflow: hidden;
 }
-.berryBranch {
-    width: 70%;
-    height: 50%;
-    border-top-left-radius: 20%;
-    transform: rotate(-10deg);
-    border-top: solid 10px #0a0c1a;
-}
-.berryTwig {
-    width: 30%;
-    height: 30%;
-    border: solid 5px #0a0c1a;
-    transform: rotate(50deg) translateY(50%);
-    border-top-left-radius: 10%;
-    border-bottom-right-radius: 5%;
-    border-bottom: transparent;
-    border-left: transparent;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: flex-start;
-    overflow: hidden;
-}
-.berry {
-    width: 20%;
-    height: 20%;
+.avoBodyMain {
+    width: 40%;
+    height: 40%;
+    border: solid 1px green;
     border-radius: 50%;
-    border: red solid 1px;
-
+}
+.avoBodysmall {
+    width: 20%;
+    height: 32%;
+    border: solid 1px green;
+    border-top-right-radius: 80% 40%;
+    border-bottom-right-radius: 80% 40%;
+    margin-top: -10%;
+    margin-left: -12%;
+    transform: rotate(-15deg);
 }
