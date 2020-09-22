@@ -34,5 +34,8 @@
     width: 40%;
     height: 40%;
     border-radius: 50%;
+    border-top-right-radius: 40%;
+    border-bottom-left-radius: 40%;
+    transform: rotate(15deg);
     background: #a56342;
 }
