@@ -38,4 +38,5 @@
     border-bottom-left-radius: 40%;
     transform: rotate(15deg);
     background: #a56342;
+    box-shadow: 0px 1px 0px 0px #835136, 0px -5px 3px 3px #905b3d inset, 0px 10px 3px -3px #905b3d inset, 0px 10px 20px 0px #8a573c, 0px -1px 10px 3px #6674379a;
 }
