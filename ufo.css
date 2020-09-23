@@ -11,24 +11,29 @@
     border-radius: 50%;
 }
 .ufoBody {
+    border-top: solid #eff0f4 8px;
     width: 80%;
-    height: 30%;
+    height: 20%;
     background: #727b84;
     border-radius: 60%;
     transform: skewX(-20deg);
     margin-top: -14%;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: flex-end;
     align-items: center;
-    overflow: hidden;
+    align-content: center;
 }
+
 .ufoBottom {
-    width: 40%;
+    margin-bottom: -2%;
+    width: 50%;
     height: 20%;
-    border-radius: 50%;
-    border-top: #3c4248 ridge 15px;
-    border-left: #3c4248 ridge 15px;
-    border-bottom: #3c4248 groove 15px;
-    border-right: #3c4248 groove 15px;
-    transform: skewX(-20deg) skewY(-8deg) rotate(10deg);
+    border-radius: 60%;
+    border-top: #3c4248 ridge 20px;
+    /* border-left: #3c4248 ridge  20px; */
+    /* border-bottom: #3c4248 groove 20px; */
+    /* border-right: #3c4248 groove 20px; */
+    background: #9fe9f8;
+    transform: skewX(30deg) skewX(-20deg) translateX(10%) scaleX(1);
 }
