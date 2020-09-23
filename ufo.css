@@ -6,8 +6,29 @@
 }
 .ufoDome {
     background: #c0cedb;
-    width: 30%;
+    width: 40%;
+    height: 30%;
+    border-radius: 50%;
+}
+.ufoBody {
+    width: 80%;
+    height: 30%;
+    background: #727b84;
+    border-radius: 60%;
+    transform: skewX(-20deg);
+    margin-top: -14%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.ufoBottom {
+    width: 40%;
     height: 20%;
-    border-top-left-radius: 50%;
-    border-top-right-radius: 50%;
+    border-radius: 50%;
+    border-top: #3c4248 ridge 15px;
+    border-left: #3c4248 ridge 15px;
+    border-bottom: #3c4248 groove 15px;
+    border-right: #3c4248 groove 15px;
+    transform: skewX(-20deg) skewY(-8deg) rotate(10deg);
 }
