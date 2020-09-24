@@ -14,7 +14,7 @@
     border-top: ridge #8c959e 15px;
     width: 80%;
     height: 20%;
-    background: #727b84;
+    background: radial-gradient(circle at 20% 10%, #93939c 0%, #676976 25%, #777f8a 45%, #7d868f 65%, #505b63 80%, #777d81 100%);
     border-radius: 60%;
     transform: skewX(-20deg);
     margin-top: -14%;
