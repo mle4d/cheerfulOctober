@@ -31,10 +31,9 @@
     height: 20%;
     border-radius: 60%;
     border-top: #3c4248 ridge 20px;
-    border-left: #3c4248 ridge 5px;
-    border-right: #3c4248 groove 5px;
+    border-bottom: solid #f8ffffc9 3px;
     border-top-left-radius: 60%;
     border-top-right-radius: 60%;
-    background: #9fe9f8;
-    transform: skewX(20deg) translateX(10%) scaleX(1);
+    background: linear-gradient(270deg, #1670e9 0%, #8ae4ff 20%, #f8ffff 50%, #8ae4ff 80%, #1670e9 100%);
+    transform: skewX(20deg) translateX(10%) ;
 }
