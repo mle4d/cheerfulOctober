@@ -11,7 +11,7 @@
     border-radius: 50%;
 }
 .ufoBody {
-    border-top: solid #eff0f4 8px;
+    border-top: ridge #8c959e 15px;
     width: 80%;
     height: 20%;
     background: #727b84;
