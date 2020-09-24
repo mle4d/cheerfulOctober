@@ -5,7 +5,7 @@
     overflow: hidden;
 }
 .ufoDome {
-    background: #c0cedb;
+    background: radial-gradient(circle at 90% 5%, #d9e4ec 0%, #8fb0c5 30%, #fbfbfd 70%, #647a87 100%);
     width: 40%;
     height: 30%;
     border-radius: 50%;
