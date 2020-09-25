@@ -22,14 +22,30 @@
     justify-content: space-evenly;
     align-items: flex-end;
     overflow: hidden;
-    z-index: +1; 
+    z-index: -1; 
     height: 70vh;
     width: 40%;
     margin: auto;
     position: fixed;
     top: 25%;
     left: 30%;
-    filter: drop-shadow(16px 16px 20px #ffffff) invert(75%);
+    filter: drop-shadow(16px 16px 20px #ffffff) invert(95%);
+}
+.grayTrees {
+    border-radius: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    overflow: hidden;
+    z-index: 2; 
+    height: 70vh;
+    width: 100%;
+    margin: auto;
+    position: fixed;
+    top: 10%;
+    left: -2%;
+    filter: blur(1px);
 }
 .tree {
     display: flex;
@@ -155,6 +171,7 @@
     background-size: 100px 60px;
     align-self: flex-start;
     margin-left: -20%;
+    filter: blur(3px);
 }
 .moon1 {
     width: 150%;
