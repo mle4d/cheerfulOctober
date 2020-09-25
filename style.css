@@ -22,3 +22,12 @@ h1 {
     background: #afadadbd;
     display: flex;
 }
+.homeContainer {
+    width: 90%;
+    height: 70vh;
+    border: solid red 1px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
