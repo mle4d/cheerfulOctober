@@ -72,6 +72,8 @@
 .ufoBeam {
     width: 35%;
     height: 50%;
-    border: red solid 1px;
-    margin-left: 3%;
+    margin-left: 2%;
+    margin-bottom: -11%;
+    background: linear-gradient(270deg, #1671e9a1 0%, #8ae4ffa1 20%, #f8ffffa1 50%, #8ae4ffa1 80%, #1671e9a1 100%);
+    animation: beamUp 5s linear infinite;
 }
