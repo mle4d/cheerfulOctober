@@ -1,0 +1,8 @@
+@keyframes blink {
+    from {
+        color: #1670e9;
+    }
+    to {
+        color: #8ae4ff;
+    }
+}
