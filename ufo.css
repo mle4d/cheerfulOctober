@@ -40,18 +40,22 @@
     color: #1670e9;
    font-size: 7vmin;
    margin-top: 18%;
+   animation: blink 300ms infinite linear;
 }
 .secondLight {
     color: #8ae4ff;
    font-size: 7vmin;
+   animation: blink 300ms 1s infinite linear;
 }
 .thirdLight {
     color: #1670e9;
    font-size: 7vmin;
+   animation: blink 300ms infinite linear;
 }
 .fourthLight {
     color: #8ae4ff;
     font-size: 7vmin;
+    animation: blink 300ms 1s infinite linear;
 }
 .ufoBottom {
     margin-bottom: -6%;
