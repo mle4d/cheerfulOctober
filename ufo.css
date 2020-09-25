@@ -69,3 +69,9 @@
     background: linear-gradient(270deg, #1670e9 0%, #8ae4ff 20%, #f8ffff 50%, #8ae4ff 80%, #1670e9 100%);
     transform: skewX(20deg) translateX(10%) rotate(-1deg);
 }
+.ufoBeam {
+    width: 35%;
+    height: 50%;
+    border: red solid 1px;
+    margin-left: 3%;
+}
