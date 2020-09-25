@@ -20,6 +20,7 @@
     background: #010101;
     border-top-left-radius: 10% 90%;
     border-top-right-radius: 90% 80%;
+    align-self: flex-end;
 }
 .tree1 {
     display: flex;
@@ -47,10 +48,11 @@
     border: black 1px solid;
 }
 .moon {
-    width: 40%;
+    width: 45%;
     height: 20%;
     border-radius: 50%;
-    background: yellow;
+    background: radial-gradient(circle at 10%, #e5f0f9de 0%, #e5e488 100%);
+    background-size: 80px 60px;
     align-self: flex-start;
 }
 .trunk2 {
