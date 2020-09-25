@@ -26,14 +26,32 @@
 }
 .lights {
     text-align: justify;
-    width: 60%;
+    width: 80%;
     height: 20%;
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: space-evenly;
     align-items: center;
     align-content: center;
     margin-top: 5%;
+    transform: skewX(30deg);
+}
+.firstLight {
+    color: #1670e9;
+   font-size: 7vmin;
+   margin-top: 18%;
+}
+.secondLight {
+    color: #8ae4ff;
+   font-size: 7vmin;
+}
+.thirdLight {
+    color: #1670e9;
+   font-size: 7vmin;
+}
+.fourthLight {
+    color: #8ae4ff;
+    font-size: 7vmin;
 }
 .ufoBottom {
     margin-bottom: -6%;
