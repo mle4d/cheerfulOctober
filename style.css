@@ -31,7 +31,7 @@ h1 {
     flex-direction: row;
     flex-wrap: wrap;
 }
-.days {
+.weekdays {
     height: 8%;
     width:100%;
     display: flex;
@@ -41,7 +41,7 @@ h1 {
     align-items: center;
     flex-wrap: wrap;
 }
-.day {
+.weekday {
     width: 14.2%;
     height: 100%;
     font-size: 2vmax;
