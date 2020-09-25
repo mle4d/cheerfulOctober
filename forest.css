@@ -55,6 +55,7 @@
     align-content: flex-end;
     height: 95%;
     width: 18%;
+    filter: inherit;
 }
 .branches2 {
     display: flex;
@@ -146,6 +147,7 @@
     align-items: center;
     height: 90%;
     width: 15%;
+    filter: inherit;
 }
 .trunk1 {
     height: 89%;
@@ -162,6 +164,7 @@
     align-content: flex-end;
     height: 90%;
     width: 30%;
+    filter: inherit;
 }
 .moon {
     width: 150%;
