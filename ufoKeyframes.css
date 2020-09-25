@@ -6,3 +6,16 @@
         color: #8ae4ff;
     }
 }
+@keyframes beamUp {
+    0% {
+        background: linear-gradient(270deg, #1671e959 0%, #8ae4ff5e  20%, transparent 50%, #8ae4ff5e 80%, #1671e959 100%);
+    }
+    
+    50% {
+        background: linear-gradient(270deg, #1671e9a1 0%, #8ae4ff73 20%, #f8ffff73 50%, #8ae4ff73 80%, #1671e9a1 100%);
+    }
+    
+    100% {
+        background: linear-gradient(270deg, #1671e9a1 0%, #8ae4ffa1 20%, #f8ffffa1 50%, #8ae4ffa1 80%, #1671e9a1 100%);
+    }
+}
