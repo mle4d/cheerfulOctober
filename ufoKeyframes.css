@@ -8,7 +8,7 @@
 }
 @keyframes beamUp {
     0% {
-        background: linear-gradient(270deg, #1671e959 0%, #8ae4ff5e  20%, transparent 50%, #8ae4ff5e 80%, #1671e959 100%);
+        background: linear-gradient(270deg, #1671e959 0%, #8ae4ff5e  30%, #f8ffff56 50%, #8ae4ff5e 70%, #1671e959 100%);
     }
     
     50% {
@@ -16,6 +16,6 @@
     }
     
     100% {
-        background: linear-gradient(270deg, #1671e9a1 0%, #8ae4ffa1 20%, #f8ffffa1 50%, #8ae4ffa1 80%, #1671e9a1 100%);
+        background: linear-gradient(270deg, #1671e96c 0%, #8ae4ffa1 15%, #f8ffffa1 50%, #8ae4ffa1 85%, #1671e96c 100%);
     }
 }
