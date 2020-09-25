@@ -5,10 +5,18 @@
     overflow: hidden;
 }
 .tree {
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 80%;
     width: 20%;
     border: black 1px solid;
+}
+.trunk {
+    height: 99%;
+    width: 15%;
+    background: #010101;
+    border-top-left-radius: 10% 70%;
+    border-top-right-radius: 100% 80%;
 }
