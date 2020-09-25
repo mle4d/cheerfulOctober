@@ -29,7 +29,7 @@
     position: fixed;
     top: 25%;
     left: 30%;
-    filter: drop-shadow(16px 16px 20px #ffffff) invert(95%);
+    filter: drop-shadow(16px 16px 20px #000000) invert(95%);
 }
 .grayTrees {
     border-radius: 50%;
@@ -45,7 +45,7 @@
     position: fixed;
     top: 10%;
     left: -2%;
-    filter: blur(1px);
+    filter: blur(1px) drop-shadow(26px 26px 20px #000000);
 }
 .tree {
     display: flex;
