@@ -16,6 +16,47 @@
     position: relative;
     z-index: +1;
     margin-bottom: -15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: flex-start;
+    align-items: center;
+}
+.eyes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    align-items: flex-start;
+    border: solid red 1px;
+    width: 95%;
+    height: 40%;
+}
+.leftEye {
+    width: 15%;
+    height: 40%;
+    border-radius: 50%;
+    border-bottom-right-radius: 60%;
+    background: #ffffff;
+    border: 5px solid #000000;
+}
+.beak {
+    height: 90%;
+    width: 20%;
+    background: #fecb17;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 90% 90%;
+    border-bottom-right-radius: 90% 90%;
+    border: 5px solid #000000;
+}
+.rightEye {
+    width: 15%;
+    height: 37%;
+    border-radius: 50%;
+    border-top-left-radius: 60%;
+    background: #ffffff;
+    border: 5px solid #000000;
 }
 .shirt {
     width: 95%;
