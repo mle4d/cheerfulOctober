@@ -1,0 +1,14 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-content: flex-end;
+    align-items: center;
+}
+.head {
+    width: 50%;
+    height: 70%;
+    border-radius: 50%;
+    border: solid black 5px;
+    border-bottom: solid 1px transparent;
+}
