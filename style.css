@@ -125,10 +125,12 @@ h1 {
 }
 a {
     text-decoration: none;
+    color: #F6F2E9;
 }
 a:visited {
     color: #F6F2E9;
 }
+
 .nonActive.Ingredients {
     font-size: 1.4vmax;
 }
