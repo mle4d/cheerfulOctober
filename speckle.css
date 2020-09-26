@@ -1,14 +1,31 @@
 .container {
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: center;
     align-content: flex-end;
     align-items: center;
+    overflow: hidden;
+    z-index: -2;
 }
 .head {
-    width: 50%;
-    height: 70%;
-    border-radius: 50%;
+    width: 55%;
+    height: 80%;
+    border-radius: 45%;
     border: solid black 5px;
-    border-bottom: solid 1px transparent;
+    background: #c0c0c0;
+    position: relative;
+    z-index: +1;
+    margin-bottom: -15%;
+}
+.shirt {
+    width: 95%;
+    height: 30%;
+    background: #ffffff;
+    border-top-left-radius: 40%;
+    border-top-right-radius: 30%;
+    border-bottom-left-radius: 60%;
+    border-bottom-right-radius: 60%;
+    border: solid black 5px;
+    z-index: +1;
+    margin-bottom: -5%;
 }
