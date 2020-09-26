@@ -63,6 +63,10 @@ h1 {
     height: 100%;
     font-size: 2vmax;
     outline: #fd9e9b 1px solid;
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+    align-items: flex-start;
 }
 .day.A {
     width: 57%;
@@ -73,4 +77,38 @@ h1 {
 .date {
     text-align: left;
     text-indent: 10px;
+}
+.Active {
+    height: 80%;
+    width: 80%;
+    margin: auto;
+    border-radius: 50%;
+    background: #e4e2e2ec;
+    font-size: 1.6vmax;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: justify;
+    text-shadow: 2px 2px #FFC002, 2px 2px #ffc002;
+}
+.nonActive {
+    height: 80%;
+    width: 80%;
+    margin: auto;
+    border-radius: 50%;
+    background: #6b6a6abd;
+    font-size: 1.6vmax;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: justify;
+    text-indent: 3px;
+}
+a {
+    text-decoration: none;
+}
+a:visited {
+    color: #F6F2E9;
 }
