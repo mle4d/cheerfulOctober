@@ -69,10 +69,27 @@ h1 {
     align-items: flex-start;
 }
 .day.A {
+    background: #5353539d;
     width: 57%;
     height: 100%;
-    font-size: 2vmax;
+    font-size: 1.2vmax;
     outline: #fd9e9b 1px solid;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.day.A a{
+    color: #fd9e9b;
+    
+}
+.day.A a:active{
+    color: #fd9e9b;
+    
+}
+.day.A a:visited{
+    color: #ffd967;
 }
 .date {
     text-align: left;
