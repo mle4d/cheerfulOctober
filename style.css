@@ -25,7 +25,7 @@ h1 {
 .homeContainer {
     width: 90%;
     height: 78vh;
-    border: #fd9e9b 10px double;
+    border: #fd9e9b 10px solid;
     margin: auto;
     display: flex;
     flex-direction: row;
@@ -76,21 +76,21 @@ h1 {
 }
 .date {
     text-align: left;
-    text-indent: 10px;
+    text-indent: 5px;
 }
 .Active {
     height: 80%;
     width: 80%;
     margin: auto;
     border-radius: 50%;
-    background: #e4e2e2ec;
+    background: #ffd967;
     font-size: 1.6vmax;
     display: flex;
     justify-content: center;
     align-items: center;
     align-content: center;
     text-align: justify;
-    text-shadow: 2px 2px #FFC002, 2px 2px #ffc002;
+    text-shadow: 2px 2px #fd9e9b, 2px 2px #fd9e9b;
 }
 .nonActive {
     height: 80%;
@@ -111,4 +111,7 @@ a {
 }
 a:visited {
     color: #F6F2E9;
+}
+.nonActive.Ingredients {
+    font-size: 1.4vmax;
 }
