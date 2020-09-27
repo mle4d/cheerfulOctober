@@ -28,9 +28,9 @@
     justify-content: space-between;
     align-content: center;
     align-items: flex-start;
-    border: solid red 1px;
-    width: 95%;
-    height: 40%;
+    width: 80%;
+    height: 30%;
+    margin-top: 5%;
 }
 .leftEye {
     width: 15%;
@@ -51,6 +51,7 @@
     background: rgb(229,228,136);
     background: linear-gradient(75deg, transparent 0%, transparent 25%, #000000 30%, rgba(251,204,40,1) 31%, #000000 45%, #794d0d 50%, #000000 60%, rgba(233,101,99,1) 70%);
     background-size: 50%;
+    background-repeat: no-repeat;
     border-top-left-radius: 50%;
     border-top-right-radius: 50%;
     /* border-bottom-left-radius: 90% 90%;
@@ -82,6 +83,7 @@
     height: 50%;
     border-radius: 50%;
     background: #fe6c2e;
+    margin-bottom: -10%;
 }
 .shirt {
     width: 75%;
