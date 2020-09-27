@@ -51,7 +51,7 @@
     background: linear-gradient(0deg, #fbcc28 0%, #fbcc28 45%, #000000 46%, #000000 50%, #000000 53%, #fbcc28 54%, #fbcc28 100%);
     border-radius: 50%;
     border: 4px solid #000000;
-    margin-top: 10%;
+    margin-top: 15%;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -60,11 +60,11 @@
 }
 .beakMiddle {
     background: #fbcc28;
-    width: 40%;
+    width: 45%;
     height: 30%;
-    border-top: solid black 4px;
+    border-top: solid black 5px;
     border-radius: 50%;
-    margin-top: 14%;
+    margin-top: 17%;
 }
 .rightEye {
     width: 15%;
