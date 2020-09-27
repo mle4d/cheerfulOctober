@@ -165,21 +165,21 @@
 }
 .shirtCollar1 {
     width: 30%;
-    height: 25%;
+    height: 23%;
     border: 5px solid black;
-    border-top-left-radius: 30%;
-    transform: rotate(9deg);
-    margin-top: -3%;
+    border-top-left-radius: 70%;
+    transform: rotate(11deg);
+    margin-top: -4%;
     margin-right: -9%;
     background: white;
 }
 .shirtCollar2 {
     width: 30%;
-    height: 25%;
+    height: 23%;
     border: 5px solid black;
-    border-top-right-radius: 30%;
-    transform: rotate(-9deg);
-    margin-top: -3%;
+    border-top-right-radius: 80%;
+    transform: rotate(-11deg);
+    margin-top: -4%;
     margin-left: -9%;
     background: white;
 }
