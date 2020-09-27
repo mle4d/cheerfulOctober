@@ -149,7 +149,7 @@
 .shirt {
     width: 75%;
     height: 30%;
-    background: #ffffff;
+    background: linear-gradient(90deg, #ffffff 0%, #ffffff 49%, #000000 50%, #ffffff 51%, #ffffff 100%);
     border-top-left-radius: 40%;
     border-top-right-radius: 40%;
     border-bottom-left-radius: 60%;
