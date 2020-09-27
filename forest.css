@@ -27,7 +27,7 @@
     width: 40%;
     margin: auto;
     position: fixed;
-    top: 25%;
+    top: 17%;
     left: 30%;
     filter: drop-shadow(16px 16px 20px #000000) invert(95%);
 }
@@ -43,7 +43,7 @@
     width: 100%;
     margin: auto;
     position: fixed;
-    top: 10%;
+    top: -10%;
     left: -2%;
     filter: blur(1px) drop-shadow(26px 26px 20px #000000);
 }
