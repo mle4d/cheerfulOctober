@@ -112,28 +112,29 @@
     justify-content: flex-end;
     align-content: center;
     align-items: center;
-    border: solid red 1px;
     overflow: hidden;
 }
 .SS1 {
     width: 100%;
     height: 25%;
-    border: solid red 1px;
+    background: radial-gradient(circle at 50%, #ffffff 0%, #c0c0c0 20%,#c0c0c0 30% );
 }
 .SS2 {
     width: 100%;
     height: 25%;
-    border: solid red 1px;
+    background: radial-gradient(circle at 50%, #ffffff 0%, #c0c0c0 30%,#c0c0c0 40% );
+    background-size: 50%;
 }
 .SS3 {
     width: 100%;
     height: 25%;
-    border: solid red 1px;
+    background: radial-gradient(circle at 50%, #ffffff 0%, #c0c0c0 20%,#c0c0c0 30% );
 }
 .SS4 {
     width: 100%;
     height: 25%;
-    border: solid red 1px;
+    background: radial-gradient(circle at 50%, #ffffff 0%, #c0c0c0 30%,#c0c0c0 40% );
+    background-size: 50%;
 }
 .chestCollar {
     background: #fe6c2e;
@@ -158,7 +159,27 @@
     margin-bottom: -5%;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
     align-content: flex-start;
     align-items: flex-start;
+}
+.shirtCollar1 {
+    width: 30%;
+    height: 25%;
+    border: 5px solid black;
+    border-top-left-radius: 30%;
+    transform: rotate(9deg);
+    margin-top: -3%;
+    margin-right: -9%;
+    background: white;
+}
+.shirtCollar2 {
+    width: 30%;
+    height: 25%;
+    border: 5px solid black;
+    border-top-right-radius: 30%;
+    transform: rotate(-9deg);
+    margin-top: -3%;
+    margin-left: -9%;
+    background: white;
 }
