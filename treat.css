@@ -13,10 +13,11 @@
     align-content: center;
     align-items: center;
     overflow: hidden;
-    width: 80%;
+    width: 60%;
     height: 40%;
     border-left: solid #bebfc1 20px;
     background: #fd9e9b;
+    background: linear-gradient(90deg, #fd9e9b 0%, #fd9e9b 63%, transparent 60%);
 }
 .barName {
     font-size: 3vmax;
@@ -28,6 +29,26 @@
 .silverWrapper {
     width: 40%;
     height: 100%;
-    background: rgb(255,255,255);
-background: linear-gradient(120deg, #bebfc1 0%, #bebfc1 43%, transparent 50%);
+    background: linear-gradient(120deg, #bebfc1 0%, #bebfc1 43%, transparent 50%);
+    z-index: +2;
+}
+.chocolateSquares {
+    width: 30%;
+    height: 40%;
+    background: #6f332a;
+    margin-left: -23%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-content: flex-end;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+.singleSquare {
+    width: 45%;
+    height: 28%;
+    background: #834c32;
+    border: solid 3px #380c03;
+    border-radius: 10px;
 }
