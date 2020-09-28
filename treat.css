@@ -6,3 +6,8 @@
     align-items: center;
     overflow: hidden;
 }
+.chocolateBar {
+    width: 80%;
+    height: 40%;
+    border: solid red 1px;
+}
