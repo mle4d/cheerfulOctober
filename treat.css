@@ -1,6 +1,6 @@
 .container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-content: flex-end;
     align-items: center;
@@ -9,5 +9,5 @@
 .chocolateBar {
     width: 80%;
     height: 40%;
-    border: solid red 1px;
+    border-left: solid #bebfc1 20px;
 }
