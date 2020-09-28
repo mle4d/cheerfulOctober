@@ -25,3 +25,9 @@
     height: 70%;
     border: double #F6F2E9 5px;
 }
+.silverWrapper {
+    width: 40%;
+    height: 100%;
+    background: rgb(255,255,255);
+background: linear-gradient(120deg, #bebfc1 0%, #bebfc1 43%, transparent 50%);
+}
