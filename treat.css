@@ -9,11 +9,11 @@
 .chocolateBar {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-content: center;
+    justify-content: space-between;
+    align-content: flex-end;
     align-items: center;
     overflow: hidden;
-    width: 60%;
+    width: 62%;
     height: 40%;
     border-left: solid #bebfc1 20px;
     background: #fd9e9b;
@@ -25,12 +25,17 @@
     width: 60%;
     height: 70%;
     border: double #F6F2E9 5px;
+    border-right: none;
+    text-align: center;
+    padding: 2px;
+    line-height: 70px;
 }
 .silverWrapper {
-    width: 40%;
+    width: 70%;
     height: 100%;
-    background: linear-gradient(120deg, #bebfc1 0%, #bebfc1 43%, transparent 50%);
+    background: linear-gradient(110deg, #bebfc1 0%, #bebfc1 49%, transparent 50%);
     z-index: +2;
+    margin-left: 0%;
 }
 .chocolateSquares {
     width: 30%;
