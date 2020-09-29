@@ -46,6 +46,6 @@
 .singleSquare {
     width: 40%;
     height: 22%;
-    background: #6f332a;
-    border: solid 6px #380c03d7;
+    background: #814832a2;
+    border: outset 6px  #814832a2;
 }
