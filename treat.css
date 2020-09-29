@@ -40,13 +40,14 @@
     text-align: center;
     padding: 2px;
     line-height: 70px;
+    margin-left: 15%;
 }
 .silverWrapper {
     width: 70%;
     height: 100%;
     background: linear-gradient(110deg, #bebfc1 0%, #a5a5a6 5%, #d1d1d5 15%, #a6a6a8 30%, #dedee2 40%, #a5a5a6 45%, #bebfc1 49%, transparent 50%);
     z-index: +2;
-    margin-left: 0%;
+    margin-left: -15%;
 }
 .chocolateSquares {
     width: 30%;
