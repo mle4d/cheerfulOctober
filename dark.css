@@ -1,8 +1,27 @@
 .container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-end;
     align-content: flex-end;
     align-items: center;
     overflow: hidden;
+}
+.lightTop {
+    width: 40%;
+    height: 5%;
+    background: linear-gradient(90deg, #f4f4f4 0%, #bebfc1 54%, #b3b5af 68%, #d1d1d1 98%);
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+}
+.lightBand {
+    width: 40%;
+    height: 15%;
+    background: #000000;
+}
+.lightTopBottom {
+    width: 40%;
+    height: 5%;
+    background: linear-gradient(90deg, #f4f4f4 0%, #bebfc1 54%, #b3b5af 68%, #d1d1d1 98%);
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
 }
