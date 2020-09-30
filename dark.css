@@ -61,6 +61,7 @@
     justify-content: flex-start;
     align-content: center;
     align-items: center;
+    animation: eyes 10s linear infinite;
 }
 .rightEye {
     width: 40%;
@@ -76,6 +77,7 @@
     justify-content: flex-start;
     align-content: center;
     align-items: center;
+    animation: eyes 10s linear infinite;
 }
 .pupil {
     width: 30%;
