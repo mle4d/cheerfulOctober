@@ -52,32 +52,36 @@
     height: 80%;
     border-top-right-radius: 100% 100px;
     border-top-left-radius: 40% 70px;
-    border-bottom-left-radius: 30%;
-    border-bottom-right-radius: 10%;
-    background: #FFFFFF;
+    border-bottom-left-radius: 70%;
+    border: #000000 solid 5px;
+    border-top: #000000 solid 10px;
+    background: #320153b7;
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-content: flex-end;
-    align-items: flex-end;
+    justify-content: flex-start;
+    align-content: center;
+    align-items: center;
 }
 .rightEye {
     width: 40%;
     height: 80%;
     border-top-left-radius: 100% 100px;
     border-top-right-radius: 40% 70px;
-    border-bottom-right-radius: 30%;
-    border-bottom-left-radius: 10%;
-    background: #FFFFFF;
+    border-bottom-right-radius: 70%;
+    border: #000000 solid 5px;
+    border-top: #000000 solid 10px;
+    background: #320153b7;
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-content: flex-end;
-    align-items: flex-end;
+    justify-content: flex-start;
+    align-content: center;
+    align-items: center;
 }
 .pupil {
-    width: 10%;
-    height: 95%;
-    background: #000000;
+    width: 30%;
+    height: 35%;
+    background: #0a0a0a;
     border-radius: 50%;
+    border: solid #000000 3px;
 }
+
