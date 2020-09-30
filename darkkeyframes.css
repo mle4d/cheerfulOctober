@@ -1,0 +1,28 @@
+@keyframes lightOff {
+    0% {
+        box-shadow: 0px 0px 0px 0px transparent;
+    }
+    29% {
+        box-shadow: 0px 0px 0px 0px transparent;
+    }
+    30% {
+        box-shadow: 0px -100px 10px 150px #faee4aa1;
+    }
+    100% {
+        box-shadow: 0px -100px 10px 150px #faee4aa1;
+    }
+}
+@keyframes eyes {
+    0% {
+        box-shadow: 0px 0px 0px 0px transparent;
+    }
+    29% {
+        box-shadow: 0px 0px 0px 0px transparent;
+    }
+    30% {
+        box-shadow: 0px -100px 10px 150px #faee4aa1;
+    }
+    100% {
+        box-shadow: 0px -100px 10px 150px #faee4aa1;
+    }
+}
