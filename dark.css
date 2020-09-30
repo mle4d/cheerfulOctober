@@ -36,3 +36,9 @@
     height: 20%;
     background: linear-gradient(90deg, #3b3b3b 0%, #010101 54%, #040404 68%, #303030 98%);
 }
+.eyes {
+    width: 60%;
+    height: 30%;
+    border: red 1px solid;
+}
+
