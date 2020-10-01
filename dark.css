@@ -38,46 +38,49 @@
     background: linear-gradient(90deg, #3b3b3b 0%, #010101 54%, #040404 68%, #303030 98%);
 }
 .eyes {
-    width: 60%;
+    width: 30%;
     height: 30%;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-content: flex-end;
     align-items: center;
+    align-self: center;
     z-index: +1;
 }
 .leftEye {
     width: 40%;
-    height: 80%;
+    height: 40%;
     border-top-right-radius: 100% 100px;
     border-top-left-radius: 40% 70px;
     border-bottom-left-radius: 70%;
     border: #000000 solid 5px;
     border-top: #000000 solid 10px;
-    background: #320153b7;
+    background: #ffffffb7;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     align-content: center;
     align-items: center;
     animation: eyes 10s linear infinite;
+    box-shadow: 0px 10px 10px 10px black, 0px -10px 10px 10px black;
 }
 .rightEye {
     width: 40%;
-    height: 80%;
+    height: 40%;
     border-top-left-radius: 100% 100px;
     border-top-right-radius: 40% 70px;
     border-bottom-right-radius: 70%;
     border: #000000 solid 5px;
     border-top: #000000 solid 10px;
-    background: #320153b7;
+    background: #ffffffb7;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     align-content: center;
     align-items: center;
     animation: eyes 10s linear infinite;
+    box-shadow: 0px 10px 10px 10px black,  0px -10px 10px 10px black;
 }
 .pupil {
     width: 30%;
