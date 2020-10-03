@@ -139,6 +139,14 @@
     border-left: solid #256b27 1px;
     border-bottom: solid #256b27 3px;
 }
+.leftArmClaws {
+    font-family: monospace;
+    line-height: 110px;
+}
+.rightArmClaws {
+    font-family: monospace;
+    line-height: 110px;
+}
 .legs {
     width: 120%;
     height: 40%;
