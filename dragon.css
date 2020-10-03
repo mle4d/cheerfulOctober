@@ -54,19 +54,31 @@
     align-items: flex-end;
 }
 .eye {
-    width: 33%;
+    width: 40%;
     height: 100%;
     border-radius: 50%;
     background: #ffffff;
     border-top: outset 6px #256b27;
-    border-bottom: solid 3px #bef7c0;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    align-items: flex-end;
+    justify-content: center;
+    align-items: center;
 }
 .eyeColor {
-    
+    width: 70%;
+    height: 60%;
+    background: #000000;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+.pupil {
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+    background: #ffffff;
 }
 .mouth {
     height: 30%;
