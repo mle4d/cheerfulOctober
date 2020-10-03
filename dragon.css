@@ -63,7 +63,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    box-shadow: -25px 20px 15px -10px rgb(235, 135, 135);
+    box-shadow: -25px 20px 15px -10px #e9baa8;
 }
 .rightEye {
     width: 40%;
@@ -75,7 +75,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    box-shadow: 25px 20px 15px -10px rgb(235, 135, 135);
+    box-shadow: 25px 20px 15px -10px #e9baa8;
 }
 .eyeColor {
     width: 70%;
