@@ -4,6 +4,13 @@
     align-items: center;
     overflow: hidden;
 }
+.handle {
+    width: 10%;
+    height: 20%;
+    border-radius: 50%;
+    border: solid #ffffff 20px;
+    margin-right: -5%;
+}
 .body {
     width: 50%;
     height: 40%;
@@ -12,4 +19,15 @@
     border-bottom-left-radius: 5%;
     border-bottom-right-radius: 5%;
     background: #ffffff;
+}
+.spout {
+    width: 5%;
+    height: 15%;
+    border-top-right-radius: 60% 10%;
+    border-bottom-right-radius: 30%;
+    border-bottom-left-radius: 90%;
+    border-right: solid #ffffff 25px;
+    border-bottom: solid #ffffff 20px;
+    margin-left: -5%;
+    transform: rotate(30deg);
 }
