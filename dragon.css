@@ -118,11 +118,24 @@
     align-items: center;
 }
 .arms {
-    width: 90%;
+    width: 70%;
     height: 30%;
-    border: solid 1px red;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
+}
+.leftArm {
+    width: 20%;
+    height: 100%;
+    border-radius: 70%;
+    border-right: solid #256b27 3px;
+    border-bottom: solid #256b27 3px;
+}
+.rightArm {
+    width: 20%;
+    height: 100%;
+    border-radius: 70%;
+    border-left: solid #256b27 3px;
+    border-bottom: solid #256b27 3px;
 }
