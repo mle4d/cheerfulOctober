@@ -179,10 +179,21 @@
     border-bottom-right-radius: 80%;
     border: solid #256b27 1px;
     background: #74dd77;
+    margin-right: -80%;
+    z-index: +1;
 }
 .rightClaws {
     font-family: monospace;
     margin-left: 65%;
     transform: rotate(40deg);
     margin-top: -10%;
+}
+.tail {
+    height: 240%;
+    width: 50%;
+    align-self: flex-end;
+    margin-right: -5%;
+    border-bottom: solid 20px #74dd77;
+    border-right: solid 20px #74dd77;
+    border-radius: 90%;
 }
