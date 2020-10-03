@@ -157,6 +157,12 @@
     border-top-right-radius: 80%;
     border-bottom-left-radius: 80%;
 }
+.leftClaws {
+    font-family: monospace;
+    margin-left: -80%;
+    transform: rotate(-35deg);
+    margin-top: -5%;
+}
 .rightLeg {
     width: 30%;
     height: 100%;
@@ -165,4 +171,10 @@
     border-bottom-right-radius: 80%;
     border: solid #256b27 1px;
     background: #74dd77;
+}
+.rightClaws {
+    font-family: monospace;
+    margin-left: 65%;
+    transform: rotate(40deg);
+    margin-top: -10%;
 }
