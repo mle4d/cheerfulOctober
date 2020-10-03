@@ -14,7 +14,9 @@
 .body {
     width: 25%;
     height: 25%;
-    border-radius: 30px;
-    border: solid green 1px;
+    border-bottom-left-radius: 40% 30%;
+    border-bottom-right-radius: 40% 30%;
+    border-top-left-radius: 40% 70%;
+    border-top-right-radius: 40% 70%;
     background: #74dd77;
 }
