@@ -66,6 +66,10 @@
     width: 30%;
     border-radius: 50%;
     border-bottom: solid 4px #256b27;
+    color: #43b346;
+    line-height: 0px;
+    letter-spacing: 10px;
+    text-align: center;
 }
 .body {
     width: 25%;
