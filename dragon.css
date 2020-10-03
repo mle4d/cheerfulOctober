@@ -114,12 +114,12 @@
     margin-top: -3%;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
 }
 .arms {
     width: 70%;
-    height: 30%;
+    height: 40%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -138,4 +138,13 @@
     border-radius: 70%;
     border-left: solid #256b27 3px;
     border-bottom: solid #256b27 3px;
+}
+.legs {
+    width: 120%;
+    height: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: solid red 1px;
 }
