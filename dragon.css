@@ -94,12 +94,12 @@
     background: #ffffff;
 }
 .mouth {
-    height: 30%;
+    height: 50%;
     width: 30%;
     border-radius: 50%;
     border-bottom: solid 4px #256b27;
     color: #43b346;
-    line-height: 0px;
+    line-height: 10px;
     margin-bottom: -15%;
     font-size: 1.4vmax;
 }
