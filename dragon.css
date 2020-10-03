@@ -40,6 +40,15 @@
     border-bottom-left-radius: 40% 30%;
     border-bottom-right-radius: 40% 30%;
     z-index: +1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.face {
+    width: 70%;
+    height: 30%;
+    border: solid 1px red;
 }
 .body {
     width: 25%;
