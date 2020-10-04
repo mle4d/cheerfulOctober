@@ -19,6 +19,27 @@
     border-bottom-left-radius: 5%;
     border-bottom-right-radius: 5%;
     background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.knob {
+    width: 10%;
+    height: 10%;
+    border-radius: 50%;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background: #272727;
+    margin-top: -7%;
+}
+.lid {
+    width: 50%;
+    height: 25%;
+    border-radius: 50%;
+    border-top-left-radius: 40%;
+    border-top-right-radius: 40%;
+    background: #272727;
 }
 .spout {
     width: 5%;
