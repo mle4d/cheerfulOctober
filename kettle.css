@@ -65,21 +65,29 @@
 .eyes {
     width:80%;
     height: 40%;
-    border: solid 1px red;
+    /* border: solid 1px red; */
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-end;
+    color: #000000;
+    text-shadow: 1px 2px 2px #000000, 1px 1px 1px #000000, -1px 1px 1px #000000;
 }
 .leftEye {
     height: 100%;
-    width: 40%;
-    border-radius: 50%;
+    width: 32%;
+    border-top-left-radius: 90% 50%;
+    border-top-right-radius: 40%;
+    border-bottom-left-radius: 80%;
+    border-bottom-right-radius: 60%;
     background: #000000;
 }
 .rightEye {
-    height: 100%;
-    width: 40%;
-    border-radius: 50%;
+    height: 95%;
+    width: 30%;
+    border-top-left-radius: 60% 80%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 60%;
+    border-bottom-right-radius: 90%;
     background: #000000;
 }
