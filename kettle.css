@@ -99,4 +99,31 @@
     color: #000000;
     line-height: 100px;
     margin-top: -8%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+}
+.leftStitches {
+    height: 5%;
+    width: 33%;
+    line-height: 5px;
+    font-size: 2vmax;
+    transform: rotate(10deg);
+}
+.middleStitches {
+    height: 5%;
+    width: 33%;
+    line-height: 6px;
+    font-size: 2vmax;
+    transform: rotate(-5deg);
+}
+.rightStitches {
+    height: 5%;
+    width: 33%;
+    line-height: 0px;
+    font-size: 2vmax;
+    transform: rotate(-20deg);
+    align-self: flex-end;
+    margin-bottom: 5%;
 }
