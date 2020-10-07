@@ -15,7 +15,7 @@
 .leafA {
     height: 100%;
     width: 50%;
-    background: #71be4f;
+    background: linear-gradient(-10deg, #71be4f 0%, #649e43 50%, #71be4f 100%);
     border-top-left-radius: 200px 100px;
     border-bottom-left-radius:  200px 50px;
     border-top-right-radius: 50%;
@@ -24,7 +24,7 @@
 .leafB {
     height: 100%;
     width: 50%;
-    background: #71be4f;
+    background: linear-gradient(10deg, #71be4f 0%, #649e43 50%, #71be4f 100%);
     border-top-right-radius: 200px 100px;
     border-bottom-right-radius: 200px 50px;
     border-top-left-radius: 50%;
