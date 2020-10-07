@@ -1,0 +1,13 @@
+.container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.body {
+    width: 30%;
+    height: 40%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    background: #fbe15f;
+}
