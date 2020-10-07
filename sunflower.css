@@ -7,11 +7,28 @@
 .leaves {
     width: 40%;
     height: 13%;
-    border: solid 1px green;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+}
+.leafA {
+    height: 100%;
+    width: 50%;
+    background: #71be4f;
+    border-top-left-radius: 200px 100px;
+    border-bottom-left-radius:  200px 50px;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+.leafB {
+    height: 100%;
+    width: 50%;
+    background: #71be4f;
+    border-top-right-radius: 200px 100px;
+    border-bottom-right-radius: 200px 50px;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
 }
 .headTop {
     width: 30%;
