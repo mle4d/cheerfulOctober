@@ -77,4 +77,21 @@
     border-bottom-left-radius: 50%;
     border-bottom-right-radius: 50%;
     background: #fbe15f;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    overflow: hidden;
+}
+.brownStripe {
+    height: 70%;
+    width: 15%;
+    background: #403630;
+}
+.brownTriangle {
+    width: 0; 
+    height: 0; 
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 30px solid  #403630;
 }
