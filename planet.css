@@ -7,6 +7,7 @@
     width: 80%;
     height: 100%;
     border-radius: 50%;
+    border: #c14c9677 5px solid;
     background: radial-gradient(circle, transparent 50%, #c7aadd 90%);
     transform: rotateX(80deg) scaleX(1.2) scaleY(1.2) skewY(-10deg);
     display:flex;
@@ -15,20 +16,22 @@
 }
 .ring2 {
     width:85%;
-    height: 90%;
+    height: 95%;
     border-radius: 50%;
+    border: #f88e8a77 5px solid;
     background: radial-gradient(circle, transparent 50%, #c14c96 70%, transparent 100%);
-    transform: skewY(10deg);
+    transform: skewY(5deg);
     display:flex;
     justify-content: center;
     align-items: center;
 }
 .ring3 {
     width:80%;
-    height: 70%;
+    height: 80%;
     border-radius: 50%;
+    border: #c7aadd77 5px solid;
     background: radial-gradient(circle, transparent 50%, #f88e8a 90%);
-    transform: skewY(10deg);
+    transform: skewY(-10deg);
     display:flex;
     justify-content: center;
     align-items: center;
