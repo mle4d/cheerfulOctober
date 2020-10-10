@@ -1,0 +1,35 @@
+@keyframes saturn {
+    0%{
+        transform: rotateX(0deg) scaleX(3) scaleY(3) skewY(10deg) rotate(0deg);
+    }
+    25%{
+        transform: rotateX(0deg) scaleX(3) scaleY(3) skewY(5deg) rotate(80deg);
+    }
+    50% {
+         transform: rotateX(0deg) scaleX(3) scaleY(3) skewY(10deg) rotate(0deg);
+    }
+    75%{
+        transform: rotateX(0deg) scaleX(3) scaleY(3) skewY(5deg) rotate(-80deg);
+    }
+100% {
+        transform: rotateX(0deg) scaleX(3) scaleY(3) skewY(10deg) rotate(0deg);
+    }
+}
+
+ @keyframes ring1 {
+    0% {
+        transform: rotateX(80deg) scaleX(1.2) scaleY(1.2) skewY(-10deg) rotate(0deg);
+        }
+    25% {
+        transform: rotateX(80deg) scaleX(1.2) scaleY(1.2) skewY(-10deg) rotate(-80deg);
+        }
+    50% {
+        transform: rotateX(80deg) scaleX(1.2) scaleY(1.2) skewY(-10deg) rotate(0deg);
+        }
+    75% {
+        transform: rotateX(80deg) scaleX(1.2) scaleY(1.2) skewY(-10deg) rotate(80deg);
+    }
+    100% {
+        transform: rotateX(80deg) scaleX(1.2) scaleY(1.2) skewY(-10deg) rotate(0deg);
+        }
+}
