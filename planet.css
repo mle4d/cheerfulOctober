@@ -9,10 +9,11 @@
     border-radius: 50%;
     border: #c14c9677 5px solid;
     background: radial-gradient(circle, transparent 50%, #c7aadd 90%);
-    transform: rotateX(80deg) scaleX(1.2) scaleY(1.2) skewY(-10deg);
+    /* transform: rotateX(80deg) scaleX(1.2) scaleY(1.2) skewY(-10deg); */
     display:flex;
     justify-content: center;
     align-items: center;
+    animation: ring1 10s linear infinite;
 }
 .ring2 {
     width:85%;
@@ -44,4 +45,6 @@
     position: fixed;
     z-index: -2;
     background: linear-gradient(180deg, #c14c96d0 0%, #f88e8a 10%, #c14c96 35%, #c7aadd 55%, transparent 64%, transparent 67%, #f88e8a 78%, #c14c96d0 100%);
+    animation: saturn 10s linear infinite;
+    position: fixed;
 }
