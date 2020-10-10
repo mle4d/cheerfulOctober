@@ -12,12 +12,24 @@
     display:flex;
     justify-content: center;
     align-items: center;
-    overflow: hidden;
 }
 .ring2 {
-    width:80%;
-    height: 80%;
+    width:85%;
+    height: 90%;
     border-radius: 50%;
     background: radial-gradient(circle, transparent 50%, #c14c96 70%, transparent 100%);
     transform: skewY(10deg);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.ring3 {
+    width:80%;
+    height: 70%;
+    border-radius: 50%;
+    background: radial-gradient(circle, transparent 50%, #f88e8a 90%);
+    transform: skewY(10deg);
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
