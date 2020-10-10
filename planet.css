@@ -2,6 +2,7 @@
     justify-content: center;
     align-items: center;
     overflow: hidden;
+    z-index: +2;
 }
 .ring {
     width: 80%;
@@ -35,4 +36,13 @@
     display:flex;
     justify-content: center;
     align-items: center;
+}
+.saturn {
+    width: 25%;
+    height: 100%;
+    transform: rotateX(0deg) scaleX(3) scaleY(3) skewY(10deg);
+    border-radius: 50%;
+    position: fixed;
+    z-index: -2;
+    background: linear-gradient(180deg, #c14c96d0 0%, #f88e8a 10%, #c14c96 35%, #c7aadd 55%, transparent 64%, transparent 67%, #f88e8a 78%, #c14c96d0 100%);
 }
