@@ -8,7 +8,7 @@
     height: 100%;
     border-radius: 50%;
     background: radial-gradient(circle, transparent 50%, #c7aadd 90%);
-    transform: rotateX(80deg) scaleX(1.2) scaleY(1.2);
+    transform: rotateX(80deg) scaleX(1.2) scaleY(1.2) skewY(-10deg);
     display:flex;
     justify-content: center;
     align-items: center;
@@ -18,5 +18,6 @@
     width:80%;
     height: 80%;
     border-radius: 50%;
-    background: radial-gradient(circle, transparent 50%, #c14c96 90%);
+    background: radial-gradient(circle, transparent 50%, #c14c96 70%, transparent 100%);
+    transform: skewY(10deg);
 }
