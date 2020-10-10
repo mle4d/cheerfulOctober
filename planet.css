@@ -3,3 +3,10 @@
     align-items: center;
     overflow: hidden;
 }
+.ring {
+    width: 80%;
+    height: 100%;
+    border-radius: 50%;
+    background: radial-gradient(circle, transparent 50%, #c7aadd 90%);
+    transform: rotateX(80deg) scaleX(1.2) scaleY(1.2);
+}
