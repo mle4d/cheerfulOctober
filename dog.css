@@ -4,3 +4,26 @@
     align-items: center;
     overflow: hidden;
 }
+.topMouth {
+    width: 30%;
+    height: 20%;
+    border-radius: 50%;
+    border-bottom: solid 15px white;
+    transform: rotate(-10deg);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.nose {
+    width: 10%;
+    height: 15%;
+    border-radius: 50%;
+    background: #e8803d;
+}
+.head {
+    width: 55%;
+    height: 65%;
+    border-radius: 50%;
+    background: #ffffff;
+}
