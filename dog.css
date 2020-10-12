@@ -78,7 +78,7 @@
     margin-top: -10%;
     z-index: +1;
     box-shadow: 0px -3px 1px 1px #000000 inset;
-    background: linear-gradient(180deg, transparent 60%, #000000 70%);
+    background: linear-gradient(170deg, transparent 50%, #000000 60%);
     background-size: 58%;
     background-repeat: no-repeat;
 }
