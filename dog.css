@@ -82,3 +82,10 @@
     background-size: 58%;
     background-repeat: no-repeat;
 }
+.ears {
+    width: 40%;
+    height: 40%;
+    border: solid red 1px;
+    margin-top: -30%;
+    margin-left: -5%;
+}
