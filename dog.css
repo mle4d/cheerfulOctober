@@ -4,9 +4,17 @@
     align-items: center;
     overflow: hidden;
 }
-.topMouth {
+.mouth {
     width: 25%;
-    height: 10%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.topMouth {
+    width: 100%;
+    height: 60%;
     border-radius: 70%;
     border-bottom: solid 20px white;
     transform: rotate(-10deg);
@@ -26,9 +34,9 @@
 }
 .head {
     width: 60%;
-    height: 140%;
+    height: 110%;
     border-radius: 50%;
     background: #ffffff;
-    margin-top: 45%;
-    margin-right: -7%;
+    margin-top: 65%;
+    margin-right: -20%;
 }
