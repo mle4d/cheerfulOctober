@@ -113,12 +113,12 @@
 .body {
     width: 60%;
     height: 40%;
-    border: solid red 1px;
     margin-left: 15%;
     margin-top: -10%;
+    display: flex;
     flex-direction: row;
     justify-content: center;
-    align-content: center;
+    align-content: flex-end;
     align-items: center;
 }
 .frontBody {
@@ -127,4 +127,24 @@
     background: linear-gradient(110deg, transparent 40%, #ffffff 41%);
     transform: rotate(10deg);
     margin-left: -5%;
+    border-radius: 10px;
+}
+.secondBody {
+    width: 50%;
+    height: 90%;
+    background: #ffffff;
+   border-bottom-left-radius: 20% 90%;
+   border-bottom-right-radius: 60% 90%;
+   border-top-left-radius: 20% 20%;
+   border-top-right-radius: 90% 50%;
+}
+.thirdBody {
+    width: 40%;
+    height: 60%;
+    background: #ffffff;
+    margin-left: -10%;
+    margin-top: 15%;
+    border-bottom-right-radius: 70% 90%;
+   border-top-right-radius: 90% 10%; 
+   transform: rotate(10deg);
 }
