@@ -2,9 +2,10 @@
 .container {
     flex-direction: row;
     justify-content: center;
+    align-content: center;
     align-items: center;
     overflow: hidden;
-    z-index: -2;
+    flex-wrap: wrap;
 }
 .mouth {
     width: 25%;
@@ -108,4 +109,11 @@
     transform: rotate(30deg);
     margin-top: 10%;
     margin-left: 6%;
+}
+.body {
+    width: 60%;
+    height: 40%;
+    border: solid red 1px;
+    margin-left: 15%;
+    margin-top: -10%;
 }
