@@ -40,7 +40,7 @@
 }
 .crossTop {
     height: 15%;
-    width: 30%;
+    width: 20%;
     background: #aaaaaa;
 }
 .crossMiddle {
@@ -54,7 +54,7 @@
     overflow: hidden;
 }
 .crossLeft {
-    height: 50%;
+    height: 40%;
     width: 30%;
     background: #aaaaaa;
 }
@@ -65,12 +65,12 @@
     border: solid 10px #aaaaaa;
 }
 .crossRight {
-    height: 50%;
+    height: 40%;
     width: 30%;
     background: #aaaaaa;
 }
 .crossBottom {
-    width: 30%;
+    width: 20%;
     height: 20%;
     background: #aaaaaa;
 }
