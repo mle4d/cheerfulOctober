@@ -35,13 +35,13 @@
     border: solid red 1px;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
     align-content: flex-start;
     align-items: center;
     overflow: hidden;
 }
 .crossTop {
-    height: 20%;
+    height: 15%;
     width: 30%;
     background: #aaaaaa;
 }
@@ -69,6 +69,18 @@
 .crossRight {
     height: 50%;
     width: 30%;
+    background: #aaaaaa;
+}
+.crossBottom {
+    width: 30%;
+    height: 20%;
+    background: #aaaaaa;
+}
+.graveBottom {
+    height: 60%;
+    width: 100%;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
     background: #aaaaaa;
 }
 .grave3 {
