@@ -1,8 +1,8 @@
 .container {
     flex-direction: row;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
+    justify-content: flex-end;
+    align-content: flex-end;
+    align-items: flex-end;
     overflow: hidden;
 }
 .graveContainer {
@@ -19,7 +19,6 @@
     position: fixed;
     left: 30%;
     top: 17%;
-    /* z-index: -1; */
     background: linear-gradient(0deg, #6d6c6ca9 40%, transparent 41%);
 }
 .grave1 {
@@ -90,15 +89,14 @@
     background: #aaaaaa;
 }
 .fencePost {
-    width: 5%;
+    width: 10%;
     height: 70%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-content: flex-start;
+    align-content: center;
     align-items: center;
     overflow: hidden;
-    border: solid red 1px;
     z-index: +1;
 }
 .fenceTop {
@@ -108,8 +106,15 @@
     border-right: 15px solid transparent;
     border-bottom: 15px solid #222222;
 }
+.fenceTop2 {
+    width: 0; 
+    height: 0; 
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+}
 .fenceBar {
-    width: 50%;
+    width: 20%;
     height: 20%;
     background:  #222222;
 }
@@ -119,7 +124,7 @@
     background:  #222222;
 }
 .fenceBottom {
-    width: 50%;
+    width: 20%;
     height: 50%;
     background:  #222222;
 }
