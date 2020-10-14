@@ -92,6 +92,12 @@
 .fencePost {
     width: 5%;
     height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: flex-start;
+    align-items: center;
+    overflow: hidden;
     border: solid red 1px;
     z-index: +1;
 }
@@ -101,4 +107,19 @@
     border-left: 15px solid transparent;
     border-right: 15px solid transparent;
     border-bottom: 15px solid #222222;
+}
+.fenceBar {
+    width: 50%;
+    height: 20%;
+    background:  #222222;
+}
+.fenceRung {
+    width: 100%;
+    height: 3%;
+    background:  #222222;
+}
+.fenceBottom {
+    width: 50%;
+    height: 50%;
+    background:  #222222;
 }
