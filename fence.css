@@ -25,7 +25,9 @@
 .grave1 {
     width: 20%;
     height: 30%;
-    border: solid red 1px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    background: #aaaaaa;
 }
 .grave2 {
     width: 20%;
@@ -35,5 +37,7 @@
 .grave3 {
     width: 20%;
     height: 30%;
-    border: solid red 1px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    background: #aaaaaa;
 }
