@@ -39,4 +39,10 @@
     background: #e9b2f770;
     box-shadow: 5px 10px 10px 5px inset #c59df36c, -5px -15px 10px -10px inset #c59df36c;
     background: linear-gradient(0deg, #c59df3 0%, #f39def 50%, #e9b2f770 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    overflow: hidden;
 }
