@@ -31,3 +31,12 @@
     background: #e9b2f770;
     box-shadow: 10px 3px 10px 1px inset #c59df39a;
 }
+.bottle {
+    width: 35%;
+    height: 50%;
+    border-bottom: solid 5px #e9b2f7e3;
+    border-radius: 20%;
+    background: #e9b2f770;
+    box-shadow: 5px 10px 10px 5px inset #c59df36c, -5px -15px 10px -10px inset #c59df36c;
+    background: linear-gradient(0deg, #c59df3 0%, #f39def 50%, #e9b2f770 100%);
+}
