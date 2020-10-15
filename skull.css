@@ -69,4 +69,16 @@
     margin-top: -5%;
     transform: rotate(5deg);
     border-radius: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: flex-end;
+    overflow: hidden;
+}
+.teeth {
+    width: 25%;
+    height: 60%;
+    border-left: 3px solid #c59df3;
+    border-right: 3px solid #c59df3;
 }
