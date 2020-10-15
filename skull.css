@@ -23,3 +23,11 @@
     box-shadow: 4px 3px 1px 1px inset #c59df370;
     margin-top: -.5%;
 }
+.neck {
+    width: 9%;
+    height: 10%;
+    border: solid 1px #e9b2f7e3;
+    border-bottom: none;
+    background: #e9b2f770;
+    box-shadow: 10px 3px 10px 1px inset #c59df39a;
+}
