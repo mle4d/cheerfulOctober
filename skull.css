@@ -14,3 +14,12 @@
     background: #e9b2f79c;
     box-shadow: 1px 3px 1px 1px inset #e9b2f79c, -3px 0px 10px 10px inset #e9b2f7d7;
 }
+.neckRidge {
+    width: 11%;
+    height: 1%;
+    border-radius: 20px;
+    border: solid 1px #e9b2f7e3;
+    background: #e9b2f79c;
+    box-shadow: 4px 3px 1px 1px inset #c59df370;
+    margin-top: -.5%;
+}
