@@ -64,7 +64,13 @@
 .face {
     width: 70%;
     height:  50%;
-    /* border: solid red 1px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    transform: rotate(5deg);
 }
 .leftEye {
     width: 40%;
@@ -74,10 +80,28 @@
     border-bottom-left-radius: 70%;
     border-bottom-right-radius: 90%;
     background: #c59df3;
-    background: radial-gradient(circle, #c59df3 0%, #c59df370 100%);
+}
+.nose {
+    width: 10%;
+    height: 20%;
+    background: #c59df3;
+    align-self: flex-end;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 60%;
+    border-bottom-left-radius: 70%;
+    border-bottom-right-radius: 90%;
+}
+.rightEye {
+    width: 20%;
+    height: 80%;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 60%;
+    border-bottom-left-radius: 70%;
+    border-bottom-right-radius: 90%;
+    background: #c59df3;
 }
 .skullBottom {
-    height: 15%;
+    height: 10%;
     width: 30%;
     background: #ffffff;
     margin-left: 15%;
