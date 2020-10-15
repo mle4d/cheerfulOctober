@@ -6,3 +6,11 @@
     overflow: hidden;
     flex-wrap: wrap;
 }
+.cap {
+    width: 10%;
+    height: 10%;
+    border-radius: 50%;
+    border: solid 1px #e9b2f7e3;
+    background: #e9b2f79c;
+    box-shadow: 1px 3px 1px 1px inset #e9b2f79c, -3px 0px 10px 10px inset #e9b2f7d7;
+}
