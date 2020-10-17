@@ -247,6 +247,7 @@
     border-top: 5px black solid;
     border-bottom-left-radius: 0%;
     margin-left: 15%;
+    background: linear-gradient(250deg, transparent 67%, #000000 68%);
 }
 .hatBand {
     width: 80%;
@@ -255,6 +256,7 @@
     border-bottom-right-radius: 0%;
     border-bottom-left-radius: 0%;
     margin-left: -10%;
+    margin-top: -4%;
     background: #820dc4;
 }
 .buckle {
