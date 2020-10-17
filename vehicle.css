@@ -68,3 +68,40 @@
     transform: rotate(10deg);
     margin-bottom: 5%;
 }
+.band {
+    width: 14%;
+    height: 2%;
+    border-radius: 20%;
+    border-top: 4px solid #e2108c;
+    border-bottom: 4px solid #e2108c;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: center;
+    align-items: center;
+    background: #f49abe63;
+}
+.s11 {
+    background: #f49abe;
+}
+.s21 {
+    background: #9773b2;
+}
+.s31 {
+    background: #ec5daf;
+}
+.s41 {
+    background: #74478d;
+}
+.s51 {
+    background: #f49abe;
+}
+.s61 {
+    background: #9773b2;
+}
+.s71 {
+    background: #ec5daf;
+}
+.s81 {
+    background: #74478d;
+}
