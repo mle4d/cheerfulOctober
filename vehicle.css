@@ -9,8 +9,15 @@
     width: 15%;
     height: 60%;
     border: solid 1px red;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-content: center;
     align-items: center;
+}
+.handle {
+    width: 10%;
+    height: 70%;
+    border-radius: 50px;
+    background: #482e6b;
 }
