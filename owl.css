@@ -38,3 +38,17 @@
     justify-content: space-around;
     align-items: center;
 }
+.body {
+    width: 35%;
+    height: 30%;
+    border-radius: 40%;
+    background: #fd9e9b;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 40%;
+    z-index: +1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: -5%;
+}
