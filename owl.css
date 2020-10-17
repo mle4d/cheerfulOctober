@@ -115,3 +115,9 @@
     align-items: center;
     margin-top: -5%;
 }
+.wings {
+    width: 120%;
+    height: 70%;
+    border: solid red 1px;
+    margin-top: -5%;
+}
