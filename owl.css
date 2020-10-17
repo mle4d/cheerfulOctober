@@ -79,10 +79,18 @@
     height: 60%;
     border-radius: 50%;
     background: #ffffff;
+    margin: auto;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-end;
+}
+.pupil {
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+    background: #000000;
+    margin: auto;
 }
 .body {
     width: 35%;
