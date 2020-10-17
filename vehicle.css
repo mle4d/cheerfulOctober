@@ -73,7 +73,6 @@
     height: 2%;
     border-radius: 20%;
     border-top: 4px solid #e2108c;
-    border-bottom: 4px solid #e2108c;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -114,5 +113,85 @@
     justify-content: space-evenly;
     align-content: center;
     align-items: center;
-    background: #f49abe63;
+    margin-top: -1%;
+}
+.strands {
+    width: 5%;
+    height: 100%;
+    border-bottom-right-radius: 50%;
+    border-top: 4px solid #e2108c;
+}
+.sa {
+    background: #f49abe;
+    transform: rotate(20deg);
+    margin-bottom: 5%;
+}
+.sb {
+    background: #9773b2;
+    transform: rotate(18deg);
+}
+.sc {
+    background: #ec5daf;
+    transform: rotate(16deg);
+}
+.sd {
+    background: #74478d;
+    transform: rotate(14deg);
+}
+.se {
+    background: #f49abe;
+    transform: rotate(12deg);
+}
+.sf {
+    background: #74478d;
+    transform: rotate(10deg);
+}
+.sg {
+    background: #693390;
+    transform: rotate(8deg);
+}
+.sf1 {
+    background: #9773b2;
+    transform: rotate(6deg);
+}
+.sg1 {
+    background: #ec5daf;
+    transform: rotate(4deg);
+}
+.sf2 {
+    background: #74478d;
+    transform: rotate(-2deg);
+}
+.sg2 {
+    background: #f49abe;
+    transform: rotate(-6deg);
+}
+.sf3 {
+    background: #693390;
+    transform: rotate(-8deg);
+}
+.sg3 {
+    background: #74478d;
+    transform: rotate(-10deg);
+}
+.sh {
+    background: #c73698;
+    transform: rotate(-12deg);
+}
+.si {
+    background: #f86ba0;
+    transform: rotate(-14deg);
+}
+.sj {
+    background: #9773b2;
+    transform: rotate(-16deg);
+}
+.sk {
+    background: #ec5daf;
+    transform: rotate(-18deg);
+}
+.sl {
+    background: #74478d;
+    transform: rotate(-20deg);
+    margin-bottom: 5%;
 }
