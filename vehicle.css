@@ -5,3 +5,8 @@
     align-items: center;
     overflow: hidden;
 }
+.broom {
+    width: 15%;
+    height: 60%;
+    border: solid 1px red;
+}
