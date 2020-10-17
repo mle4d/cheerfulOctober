@@ -194,7 +194,7 @@
     transform: rotate(-20deg);
     margin-bottom: 5%;
 }
-.sign {
+.signContainer {
     width: 15%;
     height: 60%;
     border: solid 1px red;
@@ -203,4 +203,20 @@
     justify-content: center;
     align-content: center;
     align-items: center;
+}
+.poleTop {
+    width: 10%;
+    height: 5%;
+    background: linear-gradient(90deg, #7c7a7a 0%, #656464 15%, #656464 27%, #3f3e3e 40%, #3f3e3e 50%, #656464 62%, #c6c5c5 75%, #545454 87%, #929292 100%);
+}
+.sign {
+    width: 100%;
+    height: 35%;
+    border-radius: 20%;
+    border: solid black 1px;
+}
+.poleBottom {
+    width: 10%;
+    height: 60%;
+    background: linear-gradient(90deg, #7c7a7a 0%, #656464 15%, #656464 27%, #3f3e3e 40%, #3f3e3e 50%, #656464 62%, #c6c5c5 75%, #545454 87%, #929292 100%);
 }
