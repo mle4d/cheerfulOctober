@@ -139,8 +139,27 @@
     transform: rotate(-20deg);
 }
 .feet {
-    width: 70%;
+    width: 60%;
     height: 20%;
-    border: solid red 1px;
-    margin-bottom: -20%;
+    margin-bottom: -15%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.foot {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.toe {
+    width: 30%;
+    height: 100%;
+    border-radius: 30%;
+    border-bottom-left-radius: 70% 90%;
+    border-bottom-right-radius: 70% 90%;
+    background: #FFC002;
 }
