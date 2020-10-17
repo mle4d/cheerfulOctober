@@ -5,3 +5,30 @@
     align-items: center;
     overflow: hidden;
 }
+.topOfHead {
+    width: 25%;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-bottom: -1%;
+}
+.ear {
+    font-family: monospace;
+    font-size: 5vmax;
+    color: #fd9e9b;
+}
+.head {
+    width: 30%;
+    height: 30%;
+    border-radius: 50%;
+    background: #fd9e9b;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 40%;
+    z-index: +1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
