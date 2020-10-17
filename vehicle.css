@@ -13,6 +13,9 @@
     justify-content: center;
     align-content: center;
     align-items: center;
+    transform: rotate(15deg);
+    align-self: flex-end;
+    margin-bottom: 8%;
 }
 .handle {
     width: 10%;
