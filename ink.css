@@ -5,8 +5,29 @@
     align-content: center;
     align-items: center;
     overflow: hidden;
-}
-.text {
-    color: #868386;
+    flex-wrap: wrap;
+    /* color: #868386; */
     font-family: 'Homemade Apple', cursive;
+}
+.hope {
+    font-size: 3.5vmax;
+    width: 100%;
+}
+.youre {
+    font-size: 2.5vmax;
+    width: 90%;
+    text-align: left;
+}
+.asafe {
+    font-size: 2.5vmax;
+    width: 90%;
+}
+.sweet {
+    font-size: 2.5vmax;
+    width: 80%;
+    text-align: right;
+}
+.october {
+    font-size: 4vmax;
+    width: 100%;
 }
