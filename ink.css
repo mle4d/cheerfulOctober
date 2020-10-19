@@ -43,7 +43,8 @@
     border-radius: 50%;
     background: #6e7affcb;
     position: fixed;
-    left: 35%;
-    top: 20%;
+    left: 60%;
+    top: 68%;
     z-index: +1;
+    animation: moveLight 15s linear;
 }
