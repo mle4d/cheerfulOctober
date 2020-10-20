@@ -5,6 +5,15 @@
     align-items: center;
     overflow: hidden;
 }
+.arms {
+    width: 20%;
+    height: 25%;
+    border: 10px #000000 solid;
+    border-radius: 10px;
+    transform: rotate(50deg);
+    margin-bottom: -5%;
+
+}
 .body {
     width: 30%;
     height: 30%;
@@ -17,6 +26,7 @@
     align-content: center;
     align-items: center;
     overflow: hidden;
+    z-index: +1;
 }
 .leftEye {
     width: 23%;
