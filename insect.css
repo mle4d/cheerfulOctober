@@ -6,12 +6,13 @@
     overflow: hidden;
 }
 .arms {
-    width: 20%;
-    height: 25%;
+    width: 25%;
+    height: 30%;
     border: 10px #000000 solid;
     border-radius: 10px;
     transform: rotate(50deg);
-    margin-bottom: -5%;
+    margin-bottom: -15%;
+    animation: moveHands 2s linear infinite;
 }
 .konpeito {
     width: 30%;
