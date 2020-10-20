@@ -16,10 +16,34 @@
 .konpeito {
     width: 30%;
     height: 30%;
-    background: #df6998;
+    background: #df6998e0;
     border-radius: 50%;
     margin-top: -15%;
     margin-left: -15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.bump1 {
+    width: 40%;
+    height: 40%;
+    background: #de6ea298;
+    border-radius: 50%;
+}
+.bump2 {
+    width: 40%;
+    height: 40%;
+    background: #e491c6a4;
+    border-radius: 50%;
+}
+.bump3 {
+    width: 40%;
+    height: 40%;
+    background: #d16b9ba2;
+    border-radius: 50%;
 }
 .body {
     width: 30%;
