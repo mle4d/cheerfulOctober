@@ -12,7 +12,14 @@
     border-radius: 10px;
     transform: rotate(50deg);
     margin-bottom: -5%;
-
+}
+.konpeito {
+    width: 30%;
+    height: 30%;
+    background: #df6998;
+    border-radius: 50%;
+    margin-top: -15%;
+    margin-left: -15%;
 }
 .body {
     width: 30%;
