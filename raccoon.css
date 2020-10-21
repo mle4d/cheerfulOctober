@@ -72,6 +72,26 @@
     border-top-left-radius: 70%;
     background: #454545;
 }
+.pupil {
+width: 20%;
+height: 20%;
+background: #000000;
+border-radius: 50%;
+margin: auto;
+margin-top: 10%;
+border-left: solid 3px #ffffff;
+border-right: solid 3px #ffffff;
+}
+.mouth {
+    width: 40%;
+    height: 30%;
+    border-top-left-radius: 90%;
+    border-top-right-radius: 90%;
+    border-bottom-left-radius: 80%;
+    border-bottom-right-radius: 80%;
+    background: #ffffff;
+    margin-top: -10%;
+}
 .body {
     height: 35%;
     width: 30%;
