@@ -13,7 +13,6 @@
     justify-content: space-between;
     align-items: flex-start;
     margin-bottom: -1%;
-    border: solid red 1px;
 }
 .ear {
     font-family: monospace;
@@ -26,4 +25,15 @@
 }
 .ear.right {
     transform: rotate(20deg);
+}
+.head {
+    width: 30%;
+    height: 30%;
+    border-radius: 50%;
+    border-top-left-radius: 60%;
+    border-top-right-radius: 60%;
+    border-bottom-left-radius: 70% 80%;
+    border-bottom-right-radius: 70% 80%;
+    background: #b2b2b2;
+    z-index: +1;
 }
