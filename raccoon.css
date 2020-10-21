@@ -45,7 +45,32 @@
 .eyes {
     width: 100%;
     height: 40%;
-    border: solid red 1px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.leftEye {
+    height: 70%;
+    width: 45%;
+    border-radius: 50%;
+    border-top: #ffffff solid 20px;
+    border-bottom-left-radius: 70%;
+    border-top-right-radius: 70%;
+    border-bottom-right-radius: 70%;
+    border-top-left-radius: 70%;
+    background: #454545;
+}
+.rightEye {
+    height: 70%;
+    width: 45%;
+    border-radius: 50%;
+    border-top: #ffffff solid 20px;
+    border-bottom-left-radius: 70%;
+    border-top-right-radius: 70%;
+    border-bottom-right-radius: 70%;
+    border-top-left-radius: 70%;
+    background: #454545;
 }
 .body {
     height: 35%;
