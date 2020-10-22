@@ -206,12 +206,22 @@
     width: 40%;
     border: solid black 1px;
     transform: rotate(10deg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
 }
 .rightLeg {
     height: 100%;
     width: 40%;
     border: solid black 1px;
     transform: rotate(-10deg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
 }
 .post {
     width: 10%;
