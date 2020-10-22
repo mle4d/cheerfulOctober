@@ -12,4 +12,12 @@
     border-top-right-radius: 50%;
     background: #e5a86e;
     border-bottom: 10px solid #fd9d9c;
+    z-index: +1;
+}
+.brim {
+    width: 30%;
+    height: 3%;
+    border-radius: 90%;
+    background: #e5a86e;
+    margin-top: -1%;
 }
