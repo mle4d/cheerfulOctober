@@ -163,4 +163,9 @@
     width: 15%;
     height: 100%;
     border: black solid 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
 }
