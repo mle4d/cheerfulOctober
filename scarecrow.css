@@ -123,3 +123,18 @@
     background: radial-gradient(circle, #3194cecc 30%, #73c5f5 40%);
     background-size: 51% 51%;
 }
+.cheeks {
+    width: 80%;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+}
+.cheek {
+    width: 20%;
+    height: 100%;
+    border-radius: 50%;
+    background: #fd9e9cb4;
+}
