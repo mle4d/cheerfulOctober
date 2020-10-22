@@ -20,4 +20,12 @@
     border-radius: 90%;
     background: #e5a86e;
     margin-top: -1%;
+    z-index: +1;
+}
+.head {
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+    background: #f8dabb;
+    margin-top: -5%;
 }
