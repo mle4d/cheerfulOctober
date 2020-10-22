@@ -190,6 +190,19 @@
     height: 20%;
     background: #fd9d9c;
     z-index: +1;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-content: flex-end;
+    align-items: flex-start;
+}
+.shirtPatch {
+    width: 20%;
+    height: 20%;
+    background: #FFC002;
+    margin-right: 20px;
+    transform: rotate(10deg);
+    border: dashed 1px #44a5c3;
 }
 .pantsContainer {
     width: 26%;
