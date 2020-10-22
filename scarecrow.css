@@ -162,10 +162,26 @@
 .armStraw {
     width: 15%;
     height: 100%;
-    border: black solid 1px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-content: center;
     align-items: center;
+}
+.armstraw {
+    height: 10%;
+    width: 100%;
+    background: #ffb32c;
+}
+.a1 {
+    transform: rotate(15deg);
+}
+.a11 {
+    transform: rotate(-15deg);
+}
+.a2 {
+    transform: rotate(10deg);
+}
+.a22 {
+    transform: rotate(-10deg);
 }
