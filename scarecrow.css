@@ -231,3 +231,12 @@
     height: 70%;
     background: #44a5c3;
 }
+.legStraw {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: center;
+    align-items: center;
+}
