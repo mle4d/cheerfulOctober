@@ -98,3 +98,28 @@
 .g {
     transform: rotate(5deg);
 }
+.eyes {
+    width: 55%;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+}
+.leftEye {
+    width: 30%;
+    height: 100%;
+    border-radius: 50%;
+    background: #257eb1cc;
+    background: radial-gradient(circle, #3194cecc 30%, #73c5f5 40%);
+    background-size: 50% 50%;
+}
+.rightEye {
+    width: 30%;
+    height: 100%;
+    border-radius: 50%;
+    background: #257eb1cc;
+    background: radial-gradient(circle, #3194cecc 30%, #73c5f5 40%);
+    background-size: 51% 51%;
+}
