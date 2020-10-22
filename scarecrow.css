@@ -185,3 +185,8 @@
 .a22 {
     transform: rotate(-10deg);
 }
+.bottomShirt {
+    width: 20%;
+    height: 20%;
+    background: #fd9d9c;
+}
