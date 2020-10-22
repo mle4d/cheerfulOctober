@@ -145,3 +145,13 @@
     border-bottom: #000000 dotted 4px;
     border-radius: 60%;
 }
+.topShirt {
+    width: 60%;
+    height: 10%;
+    border: solid 1px red;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+}
