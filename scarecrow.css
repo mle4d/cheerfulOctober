@@ -190,3 +190,13 @@
     height: 20%;
     background: #fd9d9c;
 }
+.pantsContainer {
+    width: 20%;
+    height: 35%;
+    border: solid 1px red;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+}
