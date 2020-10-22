@@ -5,3 +5,11 @@
     align-items: center;
     overflow: hidden;
 }
+.topHat {
+    width: 20%;
+    height: 8%;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    background: #e5a86e;
+    border-bottom: 10px solid #fd9d9c;
+}
