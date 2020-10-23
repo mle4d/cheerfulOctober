@@ -94,13 +94,45 @@
 }
 .frogsBreath {
         width: 15%;
-        height: 40%;
+        height: 50%;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-content: center;
         align-items: center;
-        border: solid 1px green;
+}
+.fbLid {
+    width: 20%;
+    height: 20%;
+    border-radius: 10%;
+    background: linear-gradient(100deg, #94571a 0%, #5c2605 20%, #582810 34%, #7f390a 48%, #582008 65%, #a56828 82%, #94571a 100%);
+}
+.fbRim {
+    width: 23%;
+    height: 5%;
+    background: #6deca280;
+    margin-top: -10%;
+}
+.fbJar {
+    width: 100%;
+    height: 85%;
+    background: linear-gradient(70deg, #000000c7 0%, #6deca280 80%, #9fffc7c7 100%);
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+.fbLabel {
+    width: 80%;
+    height: 30%;
+    border-radius: 50%;
+    background: #000000;
+    line-height: 30px;
 }
 .spiderLeg {
     width: 20%;
