@@ -60,13 +60,24 @@
     justify-content: center;
     align-content: center;
     align-items: center;
-    border: solid black 1px;
 }
 .bwLid {
     width: 20%;
     height: 20%;
     border-radius: 10%;
     background: linear-gradient(100deg, #94571a 0%, #5c2605 20%, #582810 34%, #7f390a 48%, #582008 65%, #a56828 82%, #94571a 100%);
+}
+.bwRim {
+    width: 23%;
+    height: 5%;
+    background: #2e2e2e80;
+    margin-top: -4%;
+}
+.bwJar {
+    width: 100%;
+    height: 85%;
+    background: linear-gradient(50deg, #0a0a0a 0%, #2e2e2e80 50%, #000000 100%);
+    border-radius: 50px;
 }
 .frogsBreath {
         width: 15%;
