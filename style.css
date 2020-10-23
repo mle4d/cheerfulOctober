@@ -134,3 +134,6 @@ a:visited {
 .nonActive.Ingredients {
     font-size: 1.4vmax;
 }
+.Active.Ingredients {
+    font-size: 1.4vmax;
+}
