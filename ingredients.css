@@ -168,12 +168,36 @@
     align-items: center;
 }
 .spiderLegs {
-    width: 100%;
+    width: 90%;
     height: 30%;
-    margin-bottom: -30%;
+    margin-bottom: -28%;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-evenly;
     align-content: center;
     align-items: center;
+}
+.spiderLeg1 {
+    width: 20%;
+    height: 100%;
+    border-bottom: solid black 2px;
+    border-left: solid black 2px;
+    border-radius: 20%;
+    transform: rotate(-10deg);
+}
+.spiderLeg2 {
+    width: 20%;
+    height: 90%;
+    border-top: solid black 2px;
+    border-right: solid black 2px;
+    border-radius: 20%;
+    transform: rotate(-60deg);
+}
+.spiderLeg3 {
+    width: 20%;
+    height: 70%;
+    border-top: solid black 2px;
+    border-right: solid black 2px;
+    border-radius: 20%;
+    transform: rotate(40deg);
 }
