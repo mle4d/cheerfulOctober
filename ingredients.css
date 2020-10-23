@@ -78,6 +78,19 @@
     height: 85%;
     background: linear-gradient(50deg, #0a0a0a 0%, #2e2e2e80 50%, #000000 100%);
     border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+.bwLabel {
+    width: 60%;
+    height: 18%;
+    background: #ffffff;
+    border: 3px #000000 double;
+    color: #000000;
+    font-size: 1.5vmax;
 }
 .frogsBreath {
         width: 15%;
