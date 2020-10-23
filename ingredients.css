@@ -76,7 +76,7 @@
 .bwJar {
     width: 100%;
     height: 85%;
-    background: linear-gradient(50deg, #0a0a0a 0%, #2e2e2e80 50%, #000000 100%);
+    background: linear-gradient(0deg,#8f28afc4 0%, #0a0a0a 10%, #2e2e2e80 70%, #19191a6e 100%);
     border-radius: 50px;
     display: flex;
     flex-direction: column;
@@ -159,7 +159,7 @@
 .slJar {
     width: 100%;
     height: 85%;
-    background: #d1ecf57c;
+    background: #dff3fa50;
     border-radius: 20%;
     display: flex;
     flex-direction: column;
