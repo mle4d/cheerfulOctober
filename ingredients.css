@@ -16,7 +16,6 @@
     justify-content: center;
     align-content: center;
     align-items: center;
-    border: solid red 1px;
 }
 .eonLid {
     height: 8%;
@@ -62,6 +61,12 @@
     align-content: center;
     align-items: center;
     border: solid black 1px;
+}
+.bwLid {
+    width: 20%;
+    height: 20%;
+    border-radius: 10%;
+    background: linear-gradient(100deg, #94571a 0%, #5c2605 20%, #582810 34%, #7f390a 48%, #582008 65%, #a56828 82%, #94571a 100%);
 }
 .frogsBreath {
         width: 15%;
