@@ -24,12 +24,34 @@
     border-radius: 30px;
     background: #0a0a0ab7;
 }
+
 .eonJar {
     height: 92%;
     width: 100%;
     border-radius: 30px;
     background: #b2cfccb7;
     background: linear-gradient(173deg, #b2cfccb7 0%, #82f573ad 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+.eonLabel {
+    width: 60%;
+    height: 30%;
+    background: #383838;
+    border-radius: 30%;
+    margin-top: 30%;
+}
+.newtEye {
+    width: 20%;
+    height: 15%;
+    border-radius: 50%;
+    background: #0e6403;
+    margin-top: 30%;
+    margin-left: -30%;
+    box-shadow: 10px -10px 1px 1px #ffffff inset;
 }
 .batWing {
     width: 25%;
