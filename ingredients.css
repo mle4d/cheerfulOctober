@@ -3,11 +3,61 @@
     flex-direction: row;
     justify-content: center;
     align-content: center;
-    align-items: center;
+    align-items: flex-end;
+    flex-wrap: wrap;
     overflow: hidden;
     font-family: 'Syne Tactile', cursive;
 }
 .eyeOfNewt {
     width: 20%;
     height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    border: solid red 1px;
+}
+.eonLid {
+    height: 8%;
+    width: 70%;
+    border-radius: 30px;
+    background: #0a0a0ab7;
+}
+.eonJar {
+    height: 92%;
+    width: 100%;
+    border-radius: 30px;
+    background: #b2cfccb7;
+    background: linear-gradient(173deg, #b2cfccb7 0%, #82f573ad 100%);
+}
+.batWing {
+    width: 25%;
+    height: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    border: solid black 1px;
+}
+.frogsBreath {
+        width: 15%;
+        height: 40%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        border: solid 1px green;
+}
+.spiderLeg {
+    width: 20%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    border: solid 1px brown;
 }
