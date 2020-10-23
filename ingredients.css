@@ -144,3 +144,9 @@
     align-items: center;
     border: solid 1px brown;
 }
+.slHandle {
+    width: 10%;
+    height: 5%;
+    border-radius: 50%;
+    background: #d1ecf5b2;
+}
