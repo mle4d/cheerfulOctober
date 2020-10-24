@@ -1,11 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap');
 .container {
     flex-direction: column;
-    justify-content: center;
-    align-content: flex-start;
+    justify-content: flex-end;
+    align-content: flex-end;
     align-items: center;
     font-family: 'M PLUS Rounded 1c', sans-serif;
+    line-height: 90px;
 }
 
-
+.treeTop {
+    font-size: 16vmax;
+    color: red;
+}
+.treeMiddle {
+    font-size: 18vmax;
+    color: black;
+}
+.treeBottom {
+    font-size: 20vmax;
+    color: white;
+}
+.trunk {
+    font-size: 5vmax;
+    color: black;
+    line-height: 170px;
+}
 
