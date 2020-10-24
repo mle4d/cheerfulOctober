@@ -15,15 +15,21 @@
     height: 70%;
     width: 30%;
     border: solid red 1px;
+    
 }
 .rightLeg {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-content: center;
-    align-items: center;
+    align-items: flex-start;
     overflow: hidden;
     height: 70%;
     width: 30%;
     border: solid red 1px;
+}
+.legging {
+    height: 60%;
+    width: 25%;
+    background: linear-gradient(180deg, #f18819 10%, #781f72 11%, #781f72 21%, #f18819 22%, #f18819 32%, #781f72 33%, #781f72 43%, #f18819 44%, #f18819 55%, #781f72 56%, #781f72 66%, #f18819 67%, #f18819 77%, #781f72 78%, #781f72 88%, #f18819 89%);
 }
