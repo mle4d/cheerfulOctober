@@ -5,3 +5,12 @@
     align-items: center;
     overflow: hidden;
 }
+.trunk {
+    width: 30%;
+    height: 50%;
+    background: #220e09;
+    border-top-right-radius: 30% 70%;
+    border-top-left-radius: 10% 90%;
+    border-bottom-left-radius: 30% 70%;
+    border-bottom-right-radius: 30% 10%;
+}
