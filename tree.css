@@ -5,24 +5,27 @@
     align-content: flex-end;
     align-items: center;
     font-family: 'M PLUS Rounded 1c', sans-serif;
-    line-height: 90px;
+    line-height: 80px;
 }
 
 .treeTop {
     font-size: 16vmax;
-    color: red;
+    color: #ffffff;
+    z-index: +2;
+    
 }
 .treeMiddle {
     font-size: 18vmax;
-    color: black;
+    color: #f95f22;
+    z-index: +1;
 }
 .treeBottom {
     font-size: 20vmax;
-    color: white;
+    color: #f5e236;
 }
 .trunk {
     font-size: 5vmax;
-    color: black;
-    line-height: 170px;
+    color: #ffffff;
+    line-height: 190px;
 }
 
