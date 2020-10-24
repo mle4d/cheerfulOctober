@@ -6,25 +6,22 @@
     overflow: hidden;
 }
 .limbsContainer {
-    width: 60%;
+    width: 50%;
     height: 30%;
-    border: solid 1px red;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-content: flex-start;
+    align-content: flex-end;
     align-items: center;
-    overflow: hidden;
 }
 .limb1 {
     width: 20%;
-    height: 100%;
-    border-left: solid 10px #0e0604;
-    border-bottom: solid 10px #0e0604;
+    height: 115%;
+    border-left: solid 15px #0e0604;
     border-top-left-radius: 30%;
     border-bottom-left-radius: 30%;
     border-bottom-right-radius: 30%;
-    transform: rotate(-30deg);
+    transform: rotate(-40deg);
 }
 .twig1 {
     border-left: solid 10px #0e0604;
@@ -37,10 +34,33 @@
     margin-left: -80%;
     transform: rotate(-50deg);
 }
+.limb2 {
+ width: 10%;
+ height: 100%;
+ border-left: 40px solid #0e0604;
+ border-top-left-radius: 70%;
+ border-top-right-radius: 70%;
+}
+.twig2 {
+    width: 100%;
+    height: 100%;
+    border-right: solid #0e0604 10px;
+    border-radius: 50%;
+    transform: rotate(30deg);
+}
+.twig3 {
+    width: 100%;
+    height: 100%;
+    border-left: solid #0e0604 10px;
+    border-bottom: solid #0e0604 10px;
+    border-radius: 50%;
+    transform: rotate(-60deg);
+    margin-left: -250%;
+}
 .trunk {
     width: 30%;
     height: 50%;
-    background: #0e0604ce;
+    background: #0e0604;
     border-top-right-radius: 30% 70%;
     border-top-left-radius: 10% 90%;
     border-bottom-left-radius: 30% 70%;
