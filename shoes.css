@@ -32,4 +32,17 @@
     height: 60%;
     width: 25%;
     background: linear-gradient(180deg, #f18819 10%, #781f72 11%, #781f72 21%, #f18819 22%, #f18819 32%, #781f72 33%, #781f72 43%, #f18819 44%, #f18819 55%, #781f72 56%, #781f72 66%, #f18819 67%, #f18819 77%, #781f72 78%, #781f72 88%, #f18819 89%);
+    z-index: +1;
+}
+.rightLegging {
+    margin-left: 4%;
+}
+.upper {
+    width: 33%;
+    height: 15%;
+    background: #000000;
+    border-top-left-radius: 30%;
+    border-top-right-radius: 30%;
+    margin-top: -3%;
+    border-top: solid 10px #3f3f3f;
 }
