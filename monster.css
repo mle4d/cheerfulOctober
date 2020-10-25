@@ -49,6 +49,11 @@
     border-radius: 50%;
     background: #ffffff;
     margin-top: 4%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: flex-start;
+    align-items: center;
 }
 .rowEyes {
     width: 70%;
@@ -65,12 +70,29 @@
     width: 40%;
     border-radius: 50%;
     background: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: flex-start;
+    align-items: center;
 }
 .rightEye {
     height: 70%;
     width: 30%;
     border-radius: 50%;
     background: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: flex-start;
+    align-items: center;
+}
+.blackEye {
+    width: 50%;
+    height: 50%;
+    background: #000000;
+    border-radius: 50%;
+    margin: auto;
 }
 .feet {
     width: 15%;
