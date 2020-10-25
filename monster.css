@@ -35,4 +35,36 @@
     height: 50%;
     background: #c187ed;
     border-radius: 50%;
+    z-index: +1;
+}
+.feet {
+    width: 15%;
+    height: 5%;
+    margin-bottom: -15%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: -1%;
+}
+.foot {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.leftFoot {
+    transform: rotate(10deg);
+}
+.rightFoot {
+    transform: rotate(-10deg);
+}
+.toe {
+    width: 30%;
+    height: 100%;
+    border-radius: 30%;
+    border-bottom-left-radius: 70% 90%;
+    border-bottom-right-radius: 70% 90%;
+    background: #FFC002;
 }
