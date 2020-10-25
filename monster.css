@@ -36,6 +36,12 @@
     background: #c187ed;
     border-radius: 50%;
     z-index: +1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: flex-start;
+    align-items: center;
+    overflow: hidden;
 }
 .feet {
     width: 15%;
