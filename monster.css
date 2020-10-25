@@ -13,7 +13,6 @@
     justify-content: space-around;
     align-items: flex-start;
     margin-bottom: -3%;
-    border: solid red 1px;
 }
 .leftHorn {
     width: 10%;
@@ -30,4 +29,10 @@
     border-right: 10px solid white;
     border-top: 10px solid white;
     transform: rotate(20deg);
+}
+.body {
+    width: 40%;
+    height: 50%;
+    background: #c187ed;
+    border-radius: 50%;
 }
