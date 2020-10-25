@@ -51,15 +51,26 @@
     margin-top: 4%;
 }
 .rowEyes {
-    width: 100%;
-    height: 20%;
-    border: solid 1px red;
+    width: 70%;
+    height: 25%;
     display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
+    flex-direction: row;
+    justify-content: space-between;
     align-content: flex-start;
     align-items: center;
     overflow: hidden;
+}
+.leftEye {
+    height: 100%;
+    width: 40%;
+    border-radius: 50%;
+    background: #ffffff;
+}
+.rightEye {
+    height: 70%;
+    width: 30%;
+    border-radius: 50%;
+    background: #ffffff;
 }
 .feet {
     width: 15%;
