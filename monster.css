@@ -5,3 +5,29 @@
     align-items: center;
     overflow: hidden;
 }
+.topOfHead {
+    width: 25%;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-bottom: -3%;
+    border: solid red 1px;
+}
+.leftHorn {
+    width: 10%;
+    height: 130%;
+    border-radius: 70%;
+    border-left: 10px solid white;
+    border-top: 10px solid white;
+    transform: rotate(-20deg);
+}
+.rightHorn {
+    width: 10%;
+    height: 130%;
+    border-radius: 50%;
+    border-right: 10px solid white;
+    border-top: 10px solid white;
+    transform: rotate(20deg);
+}
