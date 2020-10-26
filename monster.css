@@ -151,3 +151,42 @@
     background: #fa95cb;
     margin-bottom: -20%;
 }
+.arms {
+    width: 80%;
+    height: 28%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.leftArm {
+    height: 100%;
+    width: 10%;
+    background: #fa95cb;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    transform: rotate(-20deg);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.rightArm {
+    height: 100%;
+    width: 10%;
+    background: #fa95cb;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    transform: rotate(20deg);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.finger {
+    width: 40%;
+    height: 10%;
+    border-radius: 50%;
+    border-bottom: #20cee8 5px solid;
+    margin-bottom: -20%;
+}
