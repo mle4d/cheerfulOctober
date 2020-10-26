@@ -131,7 +131,8 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
+    background: #fa95cb;
 }
 .leftFoot {
     transform: rotate(10deg);
@@ -140,10 +141,13 @@
     transform: rotate(-10deg);
 }
 .toe {
-    width: 30%;
-    height: 100%;
-    border-radius: 30%;
+    width: 34%;
+    height: 50%;
+    border-radius: 50%;
     border-bottom-left-radius: 70% 90%;
     border-bottom-right-radius: 70% 90%;
-    background: #FFC002;
+    border-bottom: #20cee8 4px solid;
+    border-left: #fc7dc0 2px solid;
+    background: #fa95cb;
+    margin-bottom: -20%;
 }
