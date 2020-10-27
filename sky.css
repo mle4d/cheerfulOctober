@@ -103,6 +103,26 @@
     height: 50%;
     border-radius: 50%;
     background: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: flex-start;
+    align-items: center;
+}
+.leftEye {
+    width: 10%;
+    height: 20%;
+    background: #000000;
+    border-radius: 50%;
+    margin-top: 20%;
+}
+.rightEye {
+    width: 24%;
+    height: 40%;
+    background: #000000;
+    border-radius: 50%;
+    margin-top: 40%;
+    z-index: +1;
 }
 .cloudBubble3 {
     width: 50%;
@@ -122,4 +142,17 @@
     border-radius: 50%;
     background: #ffffff;
     margin-top: -15%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+.mouth {
+    width: 50%;
+    height: 4%;
+    background: #000000;
+    margin-left: -30%;
+    border-radius: 30%;
+    transform: rotate(-10deg);
 }
