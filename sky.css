@@ -85,10 +85,17 @@
     width: 20%;
     height: 70%;
     border-left: solid 7px #363636;
+    margin-right: 2%;
+    margin-top: -8%;
+}
+.cloudHandle2 {
+    width: 20%;
+    height: 70%;
+    border-left: solid 7px #363636;
     border-bottom-right-radius: 50%;
     border-bottom-left-radius: 50%;
     border-bottom: solid 10px #363636;
-    margin-right: 2%;
+    margin-right: 17.5%;
     margin-top: -8%;
 }
 .cloudBubble2 {
@@ -103,6 +110,11 @@
     border-radius: 50%;
     background: #ffffff;
     margin-top: -10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-content: flex-start;
+    align-items: flex-start;
 }
 .cloudBubble4 {
     width: 50%;
