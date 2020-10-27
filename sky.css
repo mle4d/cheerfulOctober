@@ -11,6 +11,7 @@
     border-top-left-radius: 30%;
     border-top-right-radius: 30%;
     background: #363636;
+    margin-left: -20%;
 }
 .umbrella {
     width: 40%;
@@ -24,6 +25,7 @@
     align-content: flex-end;
     align-items: flex-end;
     overflow: hidden;
+    margin-left: -20%;
 }
 .umbrellaCurl {
     height: 20%;
@@ -34,7 +36,7 @@
 }
 .umbrellaCurlMiddle {
     height: 20%;
-    width: 32%;
+    width: 34%;
     border-top-left-radius: 50%;
     border-top-right-radius: 50%;
     background: #868386;
@@ -51,9 +53,10 @@
     background: #363636;
 }
 .handle {
-    width: 1%;
+    width: 1.1%;
     height: 10%;
     background: #363636;
+    margin-left: -20%;
 }
 .cloud {
     width: 50%;
@@ -72,6 +75,21 @@
     border-radius: 50%;
     background: #ffffff;
     margin-top: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-content: flex-start;
+    align-items: flex-start;
+}
+.cloudHandle {
+    width: 20%;
+    height: 70%;
+    border-left: solid 7px #363636;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom: solid 10px #363636;
+    margin-right: 2%;
+    margin-top: -8%;
 }
 .cloudBubble2 {
     width: 40%;
