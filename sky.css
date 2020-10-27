@@ -5,3 +5,10 @@
     align-items: center;
     overflow: hidden;
 }
+.umbrellaTip {
+    width: 1%;
+    height:3%;
+    border-top-left-radius: 30%;
+    border-top-right-radius: 30%;
+    background: #363636;
+}
