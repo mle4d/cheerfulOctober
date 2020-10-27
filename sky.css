@@ -156,3 +156,38 @@
     border-radius: 60%;
     transform: rotate(-10deg);
 }
+.rain {
+    width: 30%;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: 10%;
+}
+.rainDrop3 {
+    width: 20%;
+    height: 25%;
+    border-radius: 0 50% 50% 50%;
+    background: #0778d48c;
+    transform: rotate(40deg);
+    margin-top: 20px;
+  }
+  .rainDrop2 {
+    width: 30%;
+    height: 35%;
+    border-radius: 0 50% 50% 50%;
+    background: #0778d48c;
+    transform: rotate(40deg);
+    margin-top: -20%;
+  }
+  .rainDrop1 {
+    width: 10%;
+    height: 15%;
+    border-radius: 0 50% 50% 50%;
+    background: #0778d48c;
+    transform: rotate(40deg);
+    margin-top: 25%;
+  }
