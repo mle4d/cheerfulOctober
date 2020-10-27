@@ -17,7 +17,7 @@
     height: 20%;
     border-top-left-radius: 50%;
     border-top-right-radius: 50%;
-    background: linear-gradient(90deg, #fd8600 32%, #781f72 33%, #781f72 66%, #fd8600 67% );
+    background: linear-gradient(90deg, #fd8600 32%, #781f72 33%, #781f72 67%, #fd8600 68% );
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -30,5 +30,5 @@
     width: 32%;
     border-top-left-radius: 50%;
     border-top-right-radius: 50%;
-    border: solid red 1px;
+    background: #868386;
 }
