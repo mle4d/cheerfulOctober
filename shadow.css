@@ -140,4 +140,8 @@ align-content: center;
     width: 20%;
     height: 25%;
     border: solid red 1px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
 }
