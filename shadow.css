@@ -43,3 +43,10 @@
     border-bottom: solid 5px #0d0d0d;
 
 }
+.head {
+width:27%;
+height: 30%;
+border-radius: 50%;
+background: #0f0f0f;
+margin-top: -1%;
+}
