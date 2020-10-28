@@ -114,7 +114,18 @@ align-content: center;
     justify-content: flex-end;
     align-items: flex-end;
 }
-.hand {
+.leftHand {
+    width: 30%;
+    height: 30%;
+    border-left: solid 7px #0d0d0d;
+    border-top: solid 6px #0d0d0d;
+    border-top-left-radius: 20% 50%;
+    border-top-right-radius: 20% 50%;
+    border-bottom-left-radius: 50%;
+    transform: rotate(-20deg);
+    margin-bottom: 10%;
+}
+.rightHand {
     width: 20%;
     height: 20%;
     border: solid red 1px;
