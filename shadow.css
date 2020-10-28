@@ -58,10 +58,15 @@ align-content: center;
 .eyes {
     width: 80%;
     height: 30%;
-    border: solid 1px red;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     align-content: center;
+}
+.eye {
+    background: radial-gradient(circle at 90% 10%, #ea9a0b 0%, #ffab01 50%, #ffce00 70%, #fffeef 90%);
+    width: 35%;
+    height: 100%;
+    border-radius: 50%;
 }
