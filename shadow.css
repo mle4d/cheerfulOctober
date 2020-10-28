@@ -88,6 +88,10 @@ align-content: center;
     border-top-left-radius: 20% 50%;
     border-bottom-left-radius: 20%;
     transform: rotate(20deg);
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
 }
 .torso {
     width: 33%;
@@ -105,4 +109,13 @@ align-content: center;
     border-top-right-radius: 20% 50%;
     border-bottom-right-radius: 20%;
     transform: rotate(-60deg);
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.hand {
+    width: 20%;
+    height: 20%;
+    border: solid red 1px;
 }
