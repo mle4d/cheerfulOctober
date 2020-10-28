@@ -136,3 +136,8 @@ align-content: center;
     transform: rotate(40deg);
     margin-bottom: 10%;
 }
+.legs {
+    width: 20%;
+    height: 25%;
+    border: solid red 1px;
+}
