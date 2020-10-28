@@ -5,3 +5,8 @@
     align-items: center;
     overflow: hidden;
 }
+.antennas {
+    width: 20%;
+    height: 15%;
+    border: solid 1px red;
+}
