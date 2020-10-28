@@ -74,10 +74,35 @@ align-content: center;
 .body {
     width: 45%;
     height: 20%;
-    border: solid red 1px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     align-content: center;
+}
+.leftArm {
+    width: 33%;
+    height: 100%;
+    border-left: solid 10px #0d0d0d;
+    border-top: solid 10px #0d0d0d;
+    border-top-left-radius: 20% 50%;
+    border-bottom-left-radius: 20%;
+    transform: rotate(20deg);
+}
+.torso {
+    width: 33%;
+    height: 100%;
+    background: #0d0d0d;
+    border-radius: 40%;
+    border-top-left-radius: 60%;
+    border-top-right-radius: 60%;
+}
+.rightArm {
+    width: 33%;
+    height: 100%;
+    border-right: solid 10px #0d0d0d;
+    border-top: solid 10px #0d0d0d;
+    border-top-right-radius: 20% 50%;
+    border-bottom-right-radius: 20%;
+    transform: rotate(-60deg);
 }
