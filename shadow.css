@@ -32,5 +32,15 @@
     height: 100%;
     width: 20%;
     border-left: solid 10px #0d0d0d;
+    border-top: solid 10px #0d0d0d;
     transform: rotate(10deg);
+    display: flex;
+    justify-content: flex-end;
+}
+.inneraAntennaR {
+    width: 60%;
+    height: 30%;
+    border-right: solid 5px #0d0d0d;
+    border-bottom: solid 7px #0d0d0d;
+
 }
