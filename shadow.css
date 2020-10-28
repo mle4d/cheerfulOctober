@@ -18,7 +18,15 @@
     height: 100%;
     width: 20%;
     border-right: solid 10px #0d0d0d;
+    border-top: solid 10px #0d0d0d;
     transform: rotate(-10deg);
+}
+.inneraAntennaL {
+    width: 60%;
+    height: 30%;
+    border-left: solid 5px #0d0d0d;
+    border-bottom: solid 7px #0d0d0d;
+
 }
 .rightAntenna {
     height: 100%;
