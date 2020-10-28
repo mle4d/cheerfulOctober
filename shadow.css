@@ -8,7 +8,6 @@
 .antennas {
     width: 25%;
     height: 15%;
-    border: solid 1px red;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -24,8 +23,8 @@
 .inneraAntennaL {
     width: 60%;
     height: 30%;
-    border-left: solid 5px #0d0d0d;
-    border-bottom: solid 7px #0d0d0d;
+    border-left: solid 7px #0d0d0d;
+    border-bottom: solid 5px #0d0d0d;
 
 }
 .rightAntenna {
@@ -40,7 +39,7 @@
 .inneraAntennaR {
     width: 60%;
     height: 30%;
-    border-right: solid 5px #0d0d0d;
-    border-bottom: solid 7px #0d0d0d;
+    border-right: solid 7px #0d0d0d;
+    border-bottom: solid 5px #0d0d0d;
 
 }
