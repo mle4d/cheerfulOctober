@@ -31,3 +31,24 @@
     height: 1%;
     background: #ffc104;
 }
+.column2 {
+    display: flex;
+    flex-direction: column;
+    width: 2%;
+    height: 100%;
+}
+.line1 {
+    width: 100%;
+    height: 10%;
+    background: #fd9d9c;
+}
+.smallBox1 {
+    width: 100%;
+    height: 2%;
+    background: #ff8c8a;
+}
+.smallBox2 {
+    width: 100%;
+    height: 2%;
+    background: #fd9d9c;
+}
