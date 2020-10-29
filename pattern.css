@@ -52,3 +52,19 @@
     height: 2%;
     background: #fd9d9c;
 }
+.column3 {
+    display: flex;
+    flex-direction: column;
+    width: 2%;
+    height: 100%;
+}
+.line2 {
+    width: 100%;
+    height: 10%;
+    background: #f7f1e8;
+}
+.smallBox3 {
+    width: 100%;
+    height: 2%;
+    background: #f7f1e8;
+}
