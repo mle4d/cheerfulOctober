@@ -27,3 +27,9 @@
     margin-top: 10%;
     margin-left: 10%;
 }
+.spine {
+    width: 80%;
+    height: 10%;
+    background: #ffffff;
+    transform: rotate(-45deg);
+}
