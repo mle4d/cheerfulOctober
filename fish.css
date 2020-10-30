@@ -10,14 +10,12 @@
     height: 25%;
     background: linear-gradient(44deg, #ffffff 49%, transparent 50%);
     border-radius: 5%;
-    /* transform: rotate(45deg); */
+    transform: rotate(45deg);
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     align-content: center;
     align-items: center;
-    overflow: hidden;
-    border: solid red 1px;
 }
 .eye {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -28,8 +26,18 @@
     margin-left: 10%;
 }
 .spine {
-    width: 80%;
+    width: 100%;
     height: 10%;
     background: #ffffff;
     transform: rotate(-45deg);
+    margin-left: -10%;
+}
+.vertebrae {
+    width: 5%;
+    height: 140%;
+    background: #ffffff;
+    border-radius: 50%;
+    transform: rotate(-45deg);
+    margin-top: -30%;
+    margin-left: -40%;
 }
