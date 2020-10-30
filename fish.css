@@ -5,3 +5,25 @@
     align-items: center;
     overflow: hidden;
 }
+.head {
+    width: 23%;
+    height: 25%;
+    background: linear-gradient(44deg, #ffffff 49%, transparent 50%);
+    border-radius: 5%;
+    /* transform: rotate(45deg); */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: center;
+    align-items: center;
+    overflow: hidden;
+    border: solid red 1px;
+}
+.eye {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #000000;
+    transform: rotate(-40deg);
+    font-size: 2vmax;
+    margin-top: 10%;
+    margin-left: 10%;
+}
