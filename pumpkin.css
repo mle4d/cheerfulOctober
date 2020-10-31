@@ -5,18 +5,18 @@
     overflow: hidden;
 }
 .stem {
-    height: 8%;
-    width: 5%;
+    height: 15%;
+    width: 12%;
     border-top: solid #4c2104 10px;
     border-right: solid #4c2104 10px;
     border-top-left-radius: 30% 70%;
     border-top-right-radius: 20% 80%;
-    border-bottom-right-radius: 20% 60%;
-    transform: rotate(5deg);
+    transform: rotate(8deg);
+    margin-left: -10%;
 }
 .pumpkin {
-    width: 30%;
-    height: 35%;
+    width: 50%;
+    height: 55%;
     border-top-left-radius: 30% 70%;
     border-bottom-left-radius: 90% 50%;
     border-top-right-radius: 40% 70%;
