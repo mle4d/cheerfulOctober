@@ -14,3 +14,12 @@
     border-bottom-right-radius: 20% 60%;
     transform: rotate(5deg);
 }
+.pumpkin {
+    width: 30%;
+    height: 35%;
+    border-top-left-radius: 30% 70%;
+    border-bottom-left-radius: 90% 50%;
+    border-top-right-radius: 40% 70%;
+    border-bottom-right-radius: 40% 70%;
+    background: linear-gradient(90deg, #d74c03 25%, #fa8323 75% );
+}
