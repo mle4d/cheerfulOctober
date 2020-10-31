@@ -3,6 +3,7 @@
     justify-content: center;
     align-items: center;
     overflow: hidden;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .stem {
     height: 15%;
@@ -31,7 +32,6 @@
 .eyes {
     width: 80%;
     height: 20%;
-    font-family: Georgia, 'Times New Roman', Times, serif;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -52,6 +52,18 @@
     background: #360a05;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
+}
+.topTeeth {
+    width: 100%;
+    height: 40%;
+    border: solid white 1px;
+}
+.bottomTooth {
+    width: 60%;
+    height: 30%;
+    color: #e86713;
+    font-size: 3vmax;
+    line-height: 40px;
 }
