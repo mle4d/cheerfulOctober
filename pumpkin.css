@@ -4,3 +4,13 @@
     align-items: center;
     overflow: hidden;
 }
+.stem {
+    height: 8%;
+    width: 5%;
+    border-top: solid #4c2104 10px;
+    border-right: solid #4c2104 10px;
+    border-top-left-radius: 30% 70%;
+    border-top-right-radius: 20% 80%;
+    border-bottom-right-radius: 20% 60%;
+    transform: rotate(5deg);
+}
